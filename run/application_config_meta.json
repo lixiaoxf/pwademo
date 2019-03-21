@@ -1,0 +1,338 @@
+{
+  "view": {
+    "defaultViewEngine": "/Users/lixiao/Desktop/egg-pwa-new/config/config.default.js",
+    "mapping": {
+      ".nj": "/Users/lixiao/Desktop/egg-pwa-new/config/config.default.js"
+    },
+    "root": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/config/config.default.js"
+  },
+  "keys": "/Users/lixiao/Desktop/egg-pwa-new/config/config.default.js",
+  "middleware": "/Users/lixiao/Desktop/egg-pwa-new/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "port": "/Users/lixiao/Desktop/egg-pwa-new/config/config.default.js",
+      "hostname": "/Users/lixiao/Desktop/egg-pwa-new/config/config.default.js",
+      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    }
+  },
+  "siteconfig": {
+    "cdn": "/Users/lixiao/Desktop/egg-pwa-new/config/config.local.js"
+  },
+  "static": {
+    "prefix": "/Users/lixiao/Desktop/egg-pwa-new/config/config.default.js",
+    "dir": "/Users/lixiao/Desktop/egg-pwa-new/config/config.default.js",
+    "dynamic": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-static/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "name": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "version": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "description": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "private": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "axios": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "egg": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "jquery": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "vue": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "workbox-webpack-plugin": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "clean-webpack-plugin": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "copy-webpack-plugin": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "exports-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "extract-text-webpack-plugin": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "html-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "img-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "imports-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "sass": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "script-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "vue-loader": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "vue-template-compiler": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "webpack-manifest-plugin": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "stop": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "dev": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "watch": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "debug": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "test": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "cov": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "lint": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "ci": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "autod": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "build": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "browserslist": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "repository": {
+      "type": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "url": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "license": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "env": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "level": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/config.default.js"
+}

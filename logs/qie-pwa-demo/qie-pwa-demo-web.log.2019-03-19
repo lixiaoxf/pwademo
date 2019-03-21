@@ -1,0 +1,276 @@
+2019-03-14 16:21:09,273 WARN 52260 A client (172.17.3.159:51476) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 16:21:09,277 WARN 52260 A client (172.17.3.159:51476) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 16:21:09,278 WARN 52260 A client (172.17.3.159:51477) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 16:21:09,280 WARN 52260 A client (172.17.3.159:51477) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 16:21:09,283 WARN 52260 A client (172.17.3.159:51479) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 16:21:09,284 WARN 52260 A client (172.17.3.159:51479) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 18:49:03,783 WARN 53321 A client (172.17.3.159:49701) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 18:49:03,793 WARN 53321 A client (172.17.3.159:49701) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 18:49:03,795 WARN 53321 A client (172.17.3.159:49702) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 18:49:03,797 WARN 53321 A client (172.17.3.159:49702) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 18:49:03,802 WARN 53321 A client (172.17.3.159:49704) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-14 18:49:03,805 WARN 53321 A client (172.17.3.159:49704) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 10:55:09,332 WARN 53824 A client (127.0.0.1:56499) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 10:55:09,339 WARN 53824 A client (127.0.0.1:56499) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 10:55:09,341 WARN 53824 A client (127.0.0.1:56500) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 10:55:09,342 WARN 53824 A client (127.0.0.1:56500) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 10:55:09,343 WARN 53824 A client (127.0.0.1:56501) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 10:55:09,352 WARN 53824 A client (127.0.0.1:56501) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 10:55:09,352 WARN 53824 A client (127.0.0.1:56502) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 10:55:09,365 WARN 53824 A client (127.0.0.1:56502) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-03-15 16:08:39,432 ERROR 54313 [-/127.0.0.1/-/11ms GET /ssr] nodejs.AssertionError [ERR_ASSERTION]: Can't find some/one/index.nj from /Users/lixiao/Desktop/egg-pwa-new/app/view
+    at Map.resolve (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 54313
+hostname: localhost
+
+2019-03-16 14:27:42,404 ERROR 58024 [-/127.0.0.1/-/70ms GET /ssr] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/ssr/index/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:35:11)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+name: "Template render error"
+pid: 58024
+hostname: localhost
+
+2019-03-16 14:28:39,183 ERROR 58191 [-/127.0.0.1/-/54ms GET /ssr] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/ssr/index/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:35:11)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+name: "Template render error"
+pid: 58191
+hostname: localhost
+
+2019-03-16 14:33:47,912 ERROR 58191 [-/127.0.0.1/-/25ms GET /ssr] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/ssr/index/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:35:11)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+name: "Template render error"
+pid: 58191
+hostname: localhost
+
+2019-03-16 14:43:59,924 ERROR 58191 [-/127.0.0.1/-/16ms GET /ssr] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/ssr/index/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:35:11)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+name: "Template render error"
+pid: 58191
+hostname: localhost
+
+2019-03-17 08:36:39,655 ERROR 9928 [-/127.0.0.1/-/44ms GET /ssr] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\ssr\index\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 33]
+  expected variable end
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 33]
+  expected variable end
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:34:11)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:69:12)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:37:5
+    at RawTask.call (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\raw.js:50:29)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+name: "Template render error"
+pid: 9928
+hostname: DESKTOP-AF11GFI
+
+2019-03-17 08:40:49,076 ERROR 9928 [-/127.0.0.1/-/15ms GET /ssr] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\ssr\index\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 32]
+  expected variable end
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 32]
+  expected variable end
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:34:11)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:69:12)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:37:5
+    at RawTask.call (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\raw.js:50:29)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+name: "Template render error"
+pid: 9928
+hostname: DESKTOP-AF11GFI
+
+2019-03-17 08:41:15,513 ERROR 9928 [-/127.0.0.1/-/16ms GET /ssr] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\ssr\index\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 14]
+  parseAggregate: expected comma after expression
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 14]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:34:11)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:69:12)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:37:5
+    at RawTask.call (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\raw.js:50:29)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+name: "Template render error"
+pid: 9928
+hostname: DESKTOP-AF11GFI
+
+2019-03-17 14:20:21,635 ERROR 1836 [-/127.0.0.1/-/9ms GET /spa] nodejs.AssertionError [ERR_ASSERTION]: Can't find spa/index.nj from C:\Users\lixiao\Desktop\egg-pwa-new\app\view
+    at Map.resolve (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1836
+hostname: DESKTOP-AF11GFI
+
+2019-03-18 20:55:23,499 ERROR 63548 [-/127.0.0.1/-/5ms GET /api/v1/videos] nodejs.ReferenceError: ctx is not defined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:16:28)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63548
+hostname: localhost
+
+2019-03-18 20:55:55,118 ERROR 63555 [-/127.0.0.1/-/6ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'service' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:16:37)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63555
+hostname: localhost
+
+2019-03-18 20:56:31,106 ERROR 63556 [-/127.0.0.1/-/10ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'service' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:17:37)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63556
+hostname: localhost
+
+2019-03-18 20:57:37,020 ERROR 63557 [-/127.0.0.1/-/12ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'service' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:17:36)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63557
+hostname: localhost
+
+2019-03-18 20:59:02,043 ERROR 63562 [-/127.0.0.1/-/10ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'service' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:17:36)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63562
+hostname: localhost
+
+2019-03-18 21:01:00,828 ERROR 63564 [-/127.0.0.1/-/7ms GET /api/v1/videos] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:18:19)
+
+pid: 63564
+hostname: localhost
+
+2019-03-19 10:40:05,846 ERROR 64132 [-/127.0.0.1/-/15ms GET /api/v1/videos/1] nodejs.ReferenceError: list is not defined
+    at ApiController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api/detail.js:14:18)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 64132
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 10:40:20,914 ERROR 64132 [-/127.0.0.1/-/3ms GET /api/v1/videos/1] nodejs.ReferenceError: list is not defined
+    at ApiController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api/detail.js:14:18)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 64132
+hostname: lixiaodeMacBook-Pro-2.local
+

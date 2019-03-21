@@ -1,0 +1,1005 @@
+2019-03-09 12:08:58,616 ERROR 42859 [-/172.17.3.159/-/5ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:10
+    8|             <div class="bk"></div>
+    9|             <div><%= staticUrl(1123123)%></div>
+ >> 10|             <img src='<%= staticUrl(rm.png)%>' />
+    11|             <div class="header">in home header</div>
+    12|         </div>
+    13|     </body>
+
+rm is not defined
+    8|             <div class="bk"></div>
+    9|             <div><%= staticUrl(1123123)%></div>
+ >> 10|             <img src='<%= staticUrl(rm.png)%>' />
+    11|             <div class="header">in home header</div>
+    12|         </div>
+    13|     </body>
+
+rm is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:36)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 42859
+hostname: localhost
+
+2019-03-09 12:13:37,946 ERROR 42859 [-/172.17.3.159/-/3ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:10
+    8|             <div class="bk"></div>
+    9|             <div><%= staticUrl(1123123)%></div>
+ >> 10|             <img src=<%= staticUrl(res/rm.png)%> />
+    11|             <div class="header">in home header</div>
+    12|         </div>
+    13|     </body>
+
+res is not defined
+    8|             <div class="bk"></div>
+    9|             <div><%= staticUrl(1123123)%></div>
+ >> 10|             <img src=<%= staticUrl(res/rm.png)%> />
+    11|             <div class="header">in home header</div>
+    12|         </div>
+    13|     </body>
+
+res is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:36)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 42859
+hostname: localhost
+
+2019-03-09 12:17:29,318 ERROR 42891 [-/172.17.3.159/-/3ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:10
+    8|             <div class="bk"></div>
+    9|             <div><%= staticUrl(1123123)%></div>
+ >> 10|             <img src=<%= staticUrl(res/rm.png)%> />
+    11|             <div class="header">in home header</div>
+    12|         </div>
+    13|     </body>
+
+res is not defined
+    8|             <div class="bk"></div>
+    9|             <div><%= staticUrl(1123123)%></div>
+ >> 10|             <img src=<%= staticUrl(res/rm.png)%> />
+    11|             <div class="header">in home header</div>
+    12|         </div>
+    13|     </body>
+
+res is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:36)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 42891
+hostname: localhost
+
+2019-03-09 14:32:35,550 ERROR 43040 [-/172.17.3.159/-/27ms GET /] nodejs.Error: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:6
+    4|         <title>test</title>
+    5|         <link href="/public/<%=staticUrl('home/index.css')%>" rel="stylesheet" type="text/css"></link>
+ >> 6|         <%- include('common/base') %>
+    7|     </head>
+    8|     <body>
+    9|         <div class="top">
+
+Could not find the include file "common/base"
+    4|         <title>test</title>
+    5|         <link href="/public/<%=staticUrl('home/index.css')%>" rel="stylesheet" type="text/css"></link>
+ >> 6|         <%- include('common/base') %>
+    7|     </head>
+    8|     <body>
+    9|         <div class="top">
+
+Could not find the include file "common/base"
+    at getIncludePath (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:162:13)
+    at includeFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:288:19)
+    at include (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:651:16)
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:17)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 43040
+hostname: localhost
+
+2019-03-09 14:35:54,440 ERROR 43040 [-/172.17.3.159/-/3ms GET /] nodejs.Error: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:6
+    4|         <title>test</title>
+    5|         <link href="/public/<%=staticUrl('home/index.css')%>" rel="stylesheet" type="text/css"></link>
+ >> 6|         <% include('common/base.html') %>
+    7|     </head>
+    8|     <body>
+    9|         <div class="top">
+
+Could not find the include file "common/base.html"
+    4|         <title>test</title>
+    5|         <link href="/public/<%=staticUrl('home/index.css')%>" rel="stylesheet" type="text/css"></link>
+ >> 6|         <% include('common/base.html') %>
+    7|     </head>
+    8|     <body>
+    9|         <div class="top">
+
+Could not find the include file "common/base.html"
+    at getIncludePath (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:162:13)
+    at includeFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:288:19)
+    at include (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:651:16)
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:8)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 43040
+hostname: localhost
+
+2019-03-09 14:49:37,895 ERROR 43105 [-/172.17.3.159/-/6ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43105
+hostname: localhost
+
+2019-03-09 14:51:20,565 ERROR 43107 [-/172.17.3.159/-/49ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43107
+hostname: localhost
+
+2019-03-09 14:51:54,778 ERROR 43115 [-/172.17.3.159/-/35ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43115
+hostname: localhost
+
+2019-03-09 14:55:21,886 ERROR 43129 [-/172.17.3.159/-/25ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43129
+hostname: localhost
+
+2019-03-09 14:56:02,416 ERROR 43129 [-/172.17.3.159/-/5ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43129
+hostname: localhost
+
+2019-03-09 14:56:03,659 ERROR 43129 [-/172.17.3.159/-/2ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43129
+hostname: localhost
+
+2019-03-09 14:56:12,523 ERROR 43129 [-/172.17.3.159/-/2ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43129
+hostname: localhost
+
+2019-03-09 14:57:44,439 ERROR 43134 [-/172.17.3.159/-/32ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43134
+hostname: localhost
+
+2019-03-09 14:59:54,178 ERROR 43138 [-/172.17.3.159/-/27ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43138
+hostname: localhost
+
+2019-03-09 15:00:09,629 ERROR 43145 [-/172.17.3.159/-/28ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43145
+hostname: localhost
+
+2019-03-09 15:05:30,010 ERROR 43148 [-/172.17.3.159/-/10ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  parseSignature: expected comma after expression
+  parseSignature: expected comma after expression
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43148
+hostname: localhost
+
+2019-03-09 15:06:45,726 ERROR 43148 [-/172.17.3.159/-/4ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 15, Column 56]
+  expected variable end
+  expected variable end
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:526:21)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:350:27
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:299:9)
+    at handle (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:311:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+    at NunjucksEnvironment.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:344:10)
+name: "Template render error"
+pid: 43148
+hostname: localhost
+
+2019-03-09 16:16:46,288 ERROR 43280 [-/172.17.3.159/-/51ms GET /] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html) [Line 8, Column 13]
+  TypeError: this.staticName is not a function
+  TypeError: this.staticName is not a function
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:15:11)
+    at b_content (eval at _compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:58:3)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:14:86)
+    at b_head (eval at _compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:1)
+    at Template.root [as rootRenderFunc] (eval at _compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:10:83)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:24:16)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:20:46)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:20:86)
+name: "Template render error"
+pid: 43280
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-10 12:12:18,194 ERROR 9668 [-/192.168.0.111/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find home/index.nj from C:\Users\lixiao\Desktop\egg-pwa-new\app\view
+    at Map.resolve (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 12:13:47,245 ERROR 9668 [-/192.168.0.111/-/4ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find home/index.nj from C:\Users\lixiao\Desktop\egg-pwa-new\app\view
+    at Map.resolve (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 12:18:34,895 ERROR 9668 [-/192.168.0.111/-/20ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Error: template not found: C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base
+  Error: template not found: C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:9:11)
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:279:11)
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:282:7)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:313:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:305:9)
+name: "Template render error"
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 12:38:17,681 ERROR 9668 [-/192.168.0.111/-/30ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Error: template not found: macro.nj
+  Error: template not found: macro.nj
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:12:11)
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:279:11)
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:282:7)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:313:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:305:9)
+name: "Template render error"
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 12:38:33,178 ERROR 9668 [-/192.168.0.111/-/5ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Error: template not found: C:\Users\lixiao\Desktop\egg-pwa-new\app\view\macro.nj
+  Error: template not found: C:\Users\lixiao\Desktop\egg-pwa-new\app\view\macro.nj
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:12:11)
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:279:11)
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:282:7)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:313:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:305:9)
+name: "Template render error"
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 12:38:49,484 ERROR 9668 [-/192.168.0.111/-/7ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj) [Line 7, Column 7]
+  Error: Unable to call `add`, which is undefined or falsey
+  Error: Unable to call `add`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:33:11)
+    at b_content (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:62:3)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:32:86)
+    at b_head (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:40:1)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:28:83)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:24:1)
+    at fn (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:26:24)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:66:22
+name: "Template render error"
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 12:40:33,682 ERROR 9668 [-/192.168.0.111/-/18ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj) [Line 7, Column 8]
+  Error: Unable to call `addf`, which is undefined or falsey
+  Error: Unable to call `addf`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:33:11)
+    at b_content (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:62:3)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:32:86)
+    at b_head (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:40:1)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:28:83)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:24:1)
+    at fn (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:26:24)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:66:22
+name: "Template render error"
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 12:43:54,636 ERROR 9668 [-/192.168.0.111/-/17ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Error: template not found: mixin.nj
+  Error: template not found: mixin.nj
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:9:11)
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:279:11)
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:282:7)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:313:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:305:9)
+name: "Template render error"
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 12:50:05,611 ERROR 9668 [-/192.168.0.111/-/19ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj) [Line 2, Column 22]
+  expected variable end
+  expected variable end
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:11:11)
+    at Template.getExported (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:589:16)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:10:5)
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:311:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+name: "Template render error"
+pid: 9668
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 13:09:56,308 ERROR 5276 [-/192.168.0.111/-/5ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 1, Column 2]
+  unexpected token: %
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 1, Column 2]
+  unexpected token: %
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:30:3)
+    at Template.render (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:540:10)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:311:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+name: "Template render error"
+pid: 5276
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 13:17:42,094 ERROR 5276 [-/192.168.0.111/-/22ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 1, Column 6]
+  expected variable end
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 1, Column 6]
+  expected variable end
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:30:3)
+    at Template.render (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:540:10)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:311:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+name: "Template render error"
+pid: 5276
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 13:27:48,616 ERROR 18044 [-/192.168.0.111/-/22ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj) [Line 7, Column 10]
+  Error: Unable to call `script`, which is undefined or falsey
+  Error: Unable to call `script`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:36:11)
+    at b_content (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:64:3)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:35:86)
+    at b_head (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:40:1)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:31:83)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:27:1)
+    at fn (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:26:24)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:66:22
+name: "Template render error"
+pid: 18044
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 15:10:34,917 ERROR 18044 [-/192.168.0.111/-/21ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj) [Line 8, Column 10]
+  Error: Unable to call `script`, which is undefined or falsey
+  Error: Unable to call `script`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:35:11)
+    at b_content (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:65:3)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:34:86)
+    at b_head (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:41:1)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:30:83)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:26:1)
+    at fn (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:26:24)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:66:22
+name: "Template render error"
+pid: 18044
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 15:24:36,787 ERROR 18044 [-/192.168.0.111/-/11ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj) [Line 7, Column 10]
+  Error: Unable to call `script`, which is undefined or falsey
+  Error: Unable to call `script`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:35:11)
+    at b_content (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:64:3)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:34:86)
+    at b_head (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:40:1)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:30:83)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:26:1)
+    at fn (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:26:24)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\a-sync-waterfall\index.js:66:22
+name: "Template render error"
+pid: 18044
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 15:27:52,239 ERROR 18044 [-/192.168.0.111/-/3ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 3, Column 1]
+  unknown block tag: init
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 3, Column 1]
+  unknown block tag: init
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:30:3)
+    at Template.render (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:540:10)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:311:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+name: "Template render error"
+pid: 18044
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 15:41:03,041 ERROR 19148 [-/192.168.0.111/-/16ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 2, Column 2]
+  parseImport: expected "as" keyword
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 2, Column 2]
+  parseImport: expected "as" keyword
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:30:3)
+    at Template.render (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:540:10)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:311:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+name: "Template render error"
+pid: 19148
+hostname: DESKTOP-AF11GFI
+
+2019-03-10 15:41:18,436 ERROR 19148 [-/192.168.0.111/-/7ms GET /] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\home\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 2, Column 2]
+  parseImport: expected "as" keyword
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\common\base.nj) [Line 2, Column 2]
+  parseImport: expected "as" keyword
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:30:3)
+    at Template.render (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:540:10)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:311:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:323:9
+    at next (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:286:3)
+name: "Template render error"
+pid: 19148
+hostname: DESKTOP-AF11GFI
+
+2019-03-11 13:20:03,371 ERROR 45949 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'app' of undefined
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa-new/app.js:32:66)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+
+pid: 45949
+hostname: localhost
+
+2019-03-12 10:37:42,600 ERROR 46999 [-/172.17.3.159/-/42ms GET /one] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/some/one/index.html)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/some/common/base.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/some/common/base.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:10:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+name: "Template render error"
+pid: 46999
+hostname: localhost
+
+2019-03-12 10:38:31,392 ERROR 47006 [-/172.17.3.159/-/37ms GET /one] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/some/one/index.html)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/some/common/base.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/some/common/base.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:10:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+name: "Template render error"
+pid: 47006
+hostname: localhost
+
+2019-03-12 10:39:52,634 ERROR 47006 [-/172.17.3.159/-/12ms GET /one] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/some/one/index.html)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/some/common/base.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/some/common/base.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:10:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+name: "Template render error"
+pid: 47006
+hostname: localhost
+
+2019-03-12 10:40:41,125 ERROR 47006 [-/172.17.3.159/-/7ms GET /one] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/some/one/index.html)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/some/common/base.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/some/common/base.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:10:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+name: "Template render error"
+pid: 47006
+hostname: localhost
+
+2019-03-12 10:51:42,777 ERROR 47018 [-/172.17.3.159/-/22ms GET /one] nodejs.AssertionError [ERR_ASSERTION]: Can't find some/one/index from /Users/lixiao/Desktop/egg-pwa-new/app/view
+    at Map.resolve (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 47018
+hostname: localhost
+
+2019-03-12 10:52:45,350 ERROR 47031 [-/172.17.3.159/-/39ms GET /one] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/some/one/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/common/base.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/common/base.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:10:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+name: "Template render error"
+pid: 47031
+hostname: localhost
+
+2019-03-12 11:46:14,374 ERROR 47031 [-/172.17.3.159/-/12ms GET /one] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/some/one/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/common/base.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/common/base.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:10:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+name: "Template render error"
+pid: 47031
+hostname: localhost
+
+2019-03-12 11:46:43,334 ERROR 47031 [-/172.17.3.159/-/5ms GET /one] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/some/one/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/common/base.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/common/base.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:10:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:305:9)
+name: "Template render error"
+pid: 47031
+hostname: localhost
+
+2019-03-12 11:46:44,923 ERROR 47031 [-/172.17.3.159/-/3ms GET /public/common/index.49b08.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/index.49b08.css'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/index.49b08.css'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/common/index.49b08.css"
+name: "ENOENTError"
+pid: 47031
+hostname: localhost
+
+2019-03-12 11:46:44,927 ERROR 47031 [-/172.17.3.159/-/6ms GET /public/common/vendor.chunk.49b08.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendor.chunk.49b08.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendor.chunk.49b08.js'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendor.chunk.49b08.js"
+name: "ENOENTError"
+pid: 47031
+hostname: localhost
+
+2019-03-12 11:46:44,935 ERROR 47031 [-/172.17.3.159/-/1ms GET /public/some/one/index.49b08.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.49b08.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.49b08.js'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.49b08.js"
+name: "ENOENTError"
+pid: 47031
+hostname: localhost
+
+2019-03-12 11:46:48,856 ERROR 47031 [-/172.17.3.159/-/6ms GET /public/common/index.49b08.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/index.49b08.css'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/index.49b08.css'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/common/index.49b08.css"
+name: "ENOENTError"
+pid: 47031
+hostname: localhost
+
+2019-03-12 11:46:48,862 ERROR 47031 [-/172.17.3.159/-/12ms GET /public/common/vendor.chunk.49b08.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendor.chunk.49b08.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendor.chunk.49b08.js'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendor.chunk.49b08.js"
+name: "ENOENTError"
+pid: 47031
+hostname: localhost
+
+2019-03-12 11:48:44,822 ERROR 47165 [-/172.17.3.159/-/4ms GET /single] nodejs.AssertionError [ERR_ASSERTION]: Can't find single/index.nj from /Users/lixiao/Desktop/egg-pwa-new/app/view
+    at Map.resolve (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 47165
+hostname: localhost
+
+2019-03-12 14:35:35,908 ERROR 47458 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: loadManifest.init is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa-new/app.js:27:24)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 47458
+hostname: localhost
+
+2019-03-12 14:36:35,379 ERROR 47465 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: loadManifest.init is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa-new/app.js:27:24)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 47465
+hostname: localhost
+
+2019-03-12 14:37:17,752 ERROR 47472 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: loadManifest.init is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa-new/app.js:27:24)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 47472
+hostname: localhost
+
+2019-03-12 14:37:59,021 ERROR 47477 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: loadManifest.init is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa-new/app.js:28:24)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 47477
+hostname: localhost
+
+2019-03-12 14:39:02,813 ERROR 47483 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: loadManifest.init is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa-new/app.js:28:18)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 47483
+hostname: localhost
+
+2019-03-12 14:39:25,688 ERROR 47489 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: loadManifest.init is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa-new/app.js:28:18)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 47489
+hostname: localhost
+
+2019-03-12 15:42:56,985 ERROR 47581 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: url is not defined
+    at Object.init (/Users/lixiao/Desktop/egg-pwa-new/lib/plugin/app-load-manifest/app/extend/application.js:5:5)
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa-new/app.js:26:33)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 47581
+hostname: localhost
+
+2019-03-12 17:43:18,017 ERROR 47791 [-/172.17.3.159/-/11ms GET /one] nodejs.TypeError: ctx.service.video is not a function
+    at SomeController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/some.js:8:32)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 47791
+hostname: localhost
+
+2019-03-12 17:43:48,701 ERROR 47794 [-/172.17.3.159/-/35ms GET /one] nodejs.TypeError: ctx.service.video is not a function
+    at SomeController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/some.js:8:38)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 47794
+hostname: localhost
+
+2019-03-12 17:54:40,772 ERROR 47800 [-/172.17.3.159/-/8ms GET /public/common/vendors.chunk.f554e.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendors.chunk.f554e.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendors.chunk.f554e.js'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendors.chunk.f554e.js"
+name: "ENOENTError"
+pid: 47800
+hostname: localhost
+
+2019-03-12 17:54:40,873 ERROR 47800 [-/172.17.3.159/-/108ms GET /public/some/one/index.f554e.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.f554e.css'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.f554e.css'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.f554e.css"
+name: "ENOENTError"
+pid: 47800
+hostname: localhost
+
+2019-03-12 17:56:41,058 ERROR 47800 [-/172.17.3.159/-/1ms GET /public/common/vendors.chunk.f554e.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendors.chunk.f554e.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendors.chunk.f554e.js'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/common/vendors.chunk.f554e.js"
+name: "ENOENTError"
+pid: 47800
+hostname: localhost
+
+2019-03-12 17:56:41,066 ERROR 47800 [-/172.17.3.159/-/1ms GET /public/some/one/index.f554e.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.f554e.css'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.f554e.css'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/lixiao/Desktop/egg-pwa-new/app/public/some/one/index.f554e.css"
+name: "ENOENTError"
+pid: 47800
+hostname: localhost
+
+2019-03-12 18:30:48,035 ERROR 47911 [-/172.17.3.159/-/8ms GET /detail?id=0] nodejs.AssertionError [ERR_ASSERTION]: Can't find some/two/index.nj from /Users/lixiao/Desktop/egg-pwa-new/app/view
+    at Map.resolve (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 47911
+hostname: localhost
+

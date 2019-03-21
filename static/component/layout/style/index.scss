@@ -1,0 +1,36 @@
+@import '@/common/style/base.scss';
+@import '@/component/top/style/index.scss';
+@import '@/component/bottom/style/index.scss';
+$topheight: 100;
+html,html body{
+    height: 100%;
+}
+.site-wrap{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%; 
+    
+    .site-header{
+        height: rem($topheight);
+        margin-bottom: rem(-$topheight);
+        position: relative;
+        z-index: 1;
+    }
+    .site-footer{
+        position: relative;
+        z-index: 1;
+        height: rem($topheight);
+        margin-top: rem(-$topheight);
+    }
+    .site-content{
+        box-sizing: border-box;
+        height: 100%;
+        padding-top: rem($topheight);
+        padding-bottom: rem($topheight);
+        .site-content-inner{
+            height: 100%;
+            overflow: scroll;
+            -webkit-overflow-scrolling:touch;
+        }
+    }
+}

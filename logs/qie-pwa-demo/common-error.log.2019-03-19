@@ -1,0 +1,830 @@
+2019-03-15 09:43:31,967 ERROR 53580 nodejs.ENOENTError: spawn 11 ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:246:19)
+    at onErrorNT (internal/child_process.js:421:16)
+    at processTicksAndRejections (internal/process/next_tick.js:76:17)
+errno: "ENOENT"
+code: "ENOENT"
+syscall: "spawn 11"
+path: "11"
+spawnargs: []
+name: "ENOENTError"
+pid: 53580
+hostname: localhost
+
+2019-03-15 09:44:10,020 ERROR 53590 [egg-view-assets] The argument 'file' cannot be empty. Received ''
+2019-03-15 15:50:49,833 ERROR 54135 nodejs.ClusterClientNoResponseError: client no response in 528483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 54135
+hostname: localhost
+
+2019-03-15 16:08:39,432 ERROR 54313 [-/127.0.0.1/-/11ms GET /ssr] nodejs.AssertionError [ERR_ASSERTION]: Can't find some/one/index.nj from /Users/lixiao/Desktop/egg-pwa-new/app/view
+    at Map.resolve (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 54313
+hostname: localhost
+
+2019-03-15 17:04:00,376 ERROR 54323 nodejs.ClusterClientNoResponseError: client no response in 419946ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 54323
+hostname: localhost
+
+2019-03-16 14:27:42,402 ERROR 58024 [-/127.0.0.1/-/70ms GET /ssr] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/ssr/index/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:35:11)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+name: "Template render error"
+pid: 58024
+hostname: localhost
+
+2019-03-16 14:28:39,183 ERROR 58191 [-/127.0.0.1/-/54ms GET /ssr] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/ssr/index/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:35:11)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+name: "Template render error"
+pid: 58191
+hostname: localhost
+
+2019-03-16 14:33:47,912 ERROR 58191 [-/127.0.0.1/-/25ms GET /ssr] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/ssr/index/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:35:11)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+name: "Template render error"
+pid: 58191
+hostname: localhost
+
+2019-03-16 14:43:59,924 ERROR 58191 [-/127.0.0.1/-/16ms GET /ssr] nodejs.Template render error: (/Users/lixiao/Desktop/egg-pwa-new/app/view/ssr/index/index.nj)
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+  Error: template not found: /Users/lixiao/Desktop/egg-pwa-new/app/view/common/top/index.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:551:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:35:11)
+    at eval (eval at _compile (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:621:18), <anonymous>:40:11)
+    at createTemplate (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:279:11)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:313:11)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/environment.js:323:9
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/egg-pwa-new/node_modules/nunjucks/src/lib.js:286:3)
+name: "Template render error"
+pid: 58191
+hostname: localhost
+
+2019-03-17 08:36:39,655 ERROR 9928 [-/127.0.0.1/-/44ms GET /ssr] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\ssr\index\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 33]
+  expected variable end
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 33]
+  expected variable end
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:34:11)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:69:12)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:37:5
+    at RawTask.call (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\raw.js:50:29)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+name: "Template render error"
+pid: 9928
+hostname: DESKTOP-AF11GFI
+
+2019-03-17 08:40:49,076 ERROR 9928 [-/127.0.0.1/-/15ms GET /ssr] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\ssr\index\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 32]
+  expected variable end
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 32]
+  expected variable end
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:34:11)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:69:12)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:37:5
+    at RawTask.call (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\raw.js:50:29)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+name: "Template render error"
+pid: 9928
+hostname: DESKTOP-AF11GFI
+
+2019-03-17 08:41:15,513 ERROR 9928 [-/127.0.0.1/-/16ms GET /ssr] nodejs.Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\ssr\index\index.nj)
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 14]
+  parseAggregate: expected comma after expression
+  Template render error: (C:\Users\lixiao\Desktop\egg-pwa-new\app\view\component\bottom\index.nj) [Line 2, Column 14]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:551:19
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:34:11)
+    at eval (eval at _compile (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:621:18), <anonymous>:69:12)
+    at C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\nunjucks\src\environment.js:37:5
+    at RawTask.call (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\asap\raw.js:50:29)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+name: "Template render error"
+pid: 9928
+hostname: DESKTOP-AF11GFI
+
+2019-03-17 14:20:21,635 ERROR 1836 [-/127.0.0.1/-/9ms GET /spa] nodejs.AssertionError [ERR_ASSERTION]: Can't find spa/index.nj from C:\Users\lixiao\Desktop\egg-pwa-new\app\view
+    at Map.resolve (C:\Users\lixiao\Desktop\egg-pwa-new\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1836
+hostname: DESKTOP-AF11GFI
+
+2019-03-18 11:49:49,447 ERROR 62606 nodejs.ClusterClientNoResponseError: client no response in 744368ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 62606
+hostname: localhost
+
+2019-03-18 13:13:45,386 ERROR 62606 nodejs.ClusterClientNoResponseError: client no response in 3615700ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 62606
+hostname: localhost
+
+2019-03-18 13:41:31,724 ERROR 62606 nodejs.ClusterClientNoResponseError: client no response in 1626328ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 62606
+hostname: localhost
+
+2019-03-18 20:03:52,493 ERROR 63393 nodejs.ClusterClientNoResponseError: client no response in 4096765ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63393
+hostname: localhost
+
+2019-03-18 20:42:15,659 ERROR 63393 nodejs.ClusterClientNoResponseError: client no response in 2263134ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63393
+hostname: localhost
+
+2019-03-18 20:55:23,499 ERROR 63548 [-/127.0.0.1/-/5ms GET /api/v1/videos] nodejs.ReferenceError: ctx is not defined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:16:28)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63548
+hostname: localhost
+
+2019-03-18 20:55:55,118 ERROR 63555 [-/127.0.0.1/-/6ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'service' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:16:37)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63555
+hostname: localhost
+
+2019-03-18 20:56:31,106 ERROR 63556 [-/127.0.0.1/-/10ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'service' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:17:37)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63556
+hostname: localhost
+
+2019-03-18 20:57:37,020 ERROR 63557 [-/127.0.0.1/-/12ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'service' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:17:36)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63557
+hostname: localhost
+
+2019-03-18 20:59:02,043 ERROR 63562 [-/127.0.0.1/-/10ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'service' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:17:36)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 63562
+hostname: localhost
+
+2019-03-18 21:01:00,828 ERROR 63564 [-/127.0.0.1/-/7ms GET /api/v1/videos] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.exports.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api.js:18:19)
+
+pid: 63564
+hostname: localhost
+
+2019-03-18 22:07:58,145 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 2643090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-18 23:33:16,513 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 5078360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-18 23:53:47,911 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1211389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 00:14:19,308 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1211391ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 00:34:30,666 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1211353ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 00:55:02,066 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1211393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 00:58:28,464 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 186388ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 02:19:14,867 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 4806391ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 03:46:23,272 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 5188389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 04:06:36,016 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1212741ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 04:27:07,412 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1211377ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 04:47:38,793 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1211369ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 05:07:27,186 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1168389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 05:13:16,577 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 309378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 05:23:16,964 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 560371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 05:53:16,344 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1759361ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 06:13:27,597 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1211249ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 06:33:06,864 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 1159263ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 09:50:42,155 ERROR 63623 nodejs.ClusterClientNoResponseError: client no response in 11834501ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 63623
+hostname: localhost
+
+2019-03-19 10:40:05,845 ERROR 64132 [-/127.0.0.1/-/15ms GET /api/v1/videos/1] nodejs.ReferenceError: list is not defined
+    at ApiController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api/detail.js:14:18)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 64132
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 10:40:20,914 ERROR 64132 [-/127.0.0.1/-/3ms GET /api/v1/videos/1] nodejs.ReferenceError: list is not defined
+    at ApiController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api/detail.js:14:18)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 64132
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 11:31:07,433 ERROR 64197 nodejs.ClusterClientNoResponseError: client no response in 436921ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64197
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 11:35:57,512 ERROR 64197 nodejs.ClusterClientNoResponseError: client no response in 230036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64197
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 13:11:07,628 ERROR 64197 nodejs.ClusterClientNoResponseError: client no response in 3589799ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64197
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 13:18:36,984 ERROR 64197 nodejs.ClusterClientNoResponseError: client no response in 329317ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64197
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 13:35:02,145 ERROR 64197 nodejs.ClusterClientNoResponseError: client no response in 965149ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64197
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 16:28:12,973 ERROR 64197 nodejs.ClusterClientNoResponseError: client no response in 1231549ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64197
+hostname: lixiaodeMacBook-Pro-2.local
+
+2019-03-19 20:34:29,645 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 452974ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 20:55:00,831 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 21:15:13,195 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1212360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 21:34:27,541 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1134334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 21:54:59,897 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1212344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 22:14:21,176 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1161125ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 22:34:26,361 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1185167ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 22:54:58,696 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1212325ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 23:15:30,080 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211373ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 23:35:41,429 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211347ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-19 23:56:12,771 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 00:16:44,119 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211343ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 00:36:55,423 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211294ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 00:57:26,773 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211340ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 01:17:58,142 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 01:38:10,474 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1212330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 01:58:41,877 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 02:19:14,226 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1212340ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 02:39:45,548 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211298ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 02:54:26,889 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 881336ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 04:14:32,238 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 4785340ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 04:24:37,550 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 585298ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 04:25:37,882 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 60326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 05:07:14,240 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 2456338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 05:27:45,566 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211302ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 05:48:17,917 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1212340ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 06:08:29,270 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211350ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 06:29:00,627 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 06:49:32,984 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1212347ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 07:10:04,334 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211336ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 07:30:15,665 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 07:50:47,019 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1211345ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 07:58:39,359 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 452325ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 08:27:23,688 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1724325ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 09:17:08,977 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 2985286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 09:38:50,203 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 480953ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 13:05:26,700 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 3614809ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+
+2019-03-20 13:31:10,415 ERROR 64968 nodejs.ClusterClientNoResponseError: client no response in 1403656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 64968
+hostname: localhost
+

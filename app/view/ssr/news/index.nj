@@ -1,0 +1,27 @@
+{% extends "../../component/layout/index.nj" %}
+
+{% block head %}
+    {{style([
+        'ssr/news/index.css'
+    ])}}
+    <link rel="manifest" href="/manif-ssr.json">
+{% endblock %}
+
+{% block content %}
+    
+    <div class="news-list">
+        {% for item in list %}
+            <a href='/ssr/detail?id={{item.id}}' class='news-card'>
+                <p>{{item.sectitle}}</p>
+                <div style='background-image:url({{item.icon}});'></div> 
+            </a>
+        {%endfor%}
+    </div>
+    
+{% endblock %}
+
+{% block javascript %}
+    {{script([
+        'ssr/news/index.js'
+    ])}}
+{% endblock %}

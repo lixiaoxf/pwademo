@@ -1,0 +1,18 @@
+@import '@/common/style/var.scss';
+$bk:blue;
+.top{
+    .bk {
+        width: 450px;
+        display: flex;
+        height: 200px;
+        background: url('../res/index/rm.png') no-repeat;
+    }
+    .header{
+        background: $bk;
+        color: $color;
+        font-size:22px;
+        font-weight: bold;
+        height: 160px;
+        line-height: 160px;
+    }
+}

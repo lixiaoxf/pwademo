@@ -1,0 +1,16 @@
+{% extends "../../common/base.nj" %}
+
+{% block body %}
+   
+   <div class='site-wrap no-bottom'>
+        <header class='site-header'>
+            {% include "../top/index.nj" %}
+        </header>
+        <section class='site-content'>
+            <div class='site-content-inner'>            
+                {% block content %}{% endblock %}
+            </div>
+        </section>
+   </div>
+
+{% endblock %}

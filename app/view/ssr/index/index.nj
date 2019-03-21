@@ -1,0 +1,27 @@
+{% extends "../../component/layout/index.nj" %}
+
+{% block head %}
+    {{style([
+        'ssr/index/index.css'
+    ])}}
+    <link rel="manifest" href="/manif-ssr.json">
+{% endblock %}
+
+{% block content %}
+    
+    <div class="video-list">
+        {% for item in list %}
+            <a href='/ssr/detail?id={{item.id}}' class='video-card'>
+                <div style='background-image:url({{item.icon}});'></div> 
+                <p>{{item.title}}</p>
+            </a>
+        {%endfor%}
+    </div>
+    
+{% endblock %}
+
+{% block javascript %}
+    {{script([
+        'ssr/index/index.js'
+    ])}}
+{% endblock %}

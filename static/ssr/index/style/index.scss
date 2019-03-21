@@ -1,0 +1,27 @@
+@import '@/common/style/base.scss';
+@import '@/component/top/style/index.scss';
+.video-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: rem(15);
+    .video-card{
+        box-shadow: 0 rem(5) rem(5) rgba(0,0,0,.08);
+        margin-bottom: rem(20);
+        border-radius: rem(8);
+        overflow: hidden;
+        text-decoration:none;
+        div{
+            width: rem(350);
+            height: rem(220);
+            background: no-repeat;
+            background-size: cover;
+        }
+        p{
+            font-size: rem(24);
+            line-height: rem(32);
+            padding: rem(10);
+            color:#000;
+        }
+    }
+}

@@ -1,0 +1,236 @@
+.site-top {
+  height: 100%;
+  padding-left: rem(15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: rem(180) rem(62);
+    height: rem(62);
+    width: rem(180); }
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.site-bottom {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none; }
+    .site-bottom a.cur {
+      background: #ff5655;
+      color: #fff; }
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.site-top {
+  height: 100%;
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center; }
+  .site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: 2.4rem 0.82667rem;
+    height: 0.82667rem;
+    width: 2.4rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.site-bottom {
+  height: 100%;
+  display: flex; }
+  .site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; }
+    .site-bottom a.cur {
+      background: #ff5655;
+      color: #fff; }
+
+html, html body {
+  height: 100%; }
+
+.site-wrap {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%; }
+  .site-wrap .site-header {
+    height: 1.33333rem;
+    margin-bottom: -1.33333rem;
+    position: relative;
+    z-index: 1; }
+  .site-wrap .site-footer {
+    position: relative;
+    z-index: 1;
+    height: 1.33333rem;
+    margin-top: -1.33333rem; }
+  .site-wrap .site-content {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 1.33333rem;
+    padding-bottom: 1.33333rem; }
+    .site-wrap .site-content .site-content-inner {
+      height: 100%;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch; }
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.site-top {
+  height: 100%;
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center; }
+  .site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: 2.4rem 0.82667rem;
+    height: 0.82667rem;
+    width: 2.4rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.site-bottom {
+  height: 100%;
+  display: flex; }
+  .site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; }
+    .site-bottom a.cur {
+      background: #ff5655;
+      color: #fff; }
+
+html, html body {
+  height: 100%; }
+
+.site-wrap {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%; }
+  .site-wrap .site-header {
+    height: 1.33333rem;
+    margin-bottom: -1.33333rem;
+    position: relative;
+    z-index: 1; }
+  .site-wrap .site-footer {
+    position: relative;
+    z-index: 1;
+    height: 1.33333rem;
+    margin-top: -1.33333rem; }
+  .site-wrap .site-content {
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 1.33333rem;
+    padding-bottom: 1.33333rem; }
+    .site-wrap .site-content .site-content-inner {
+      height: 100%;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch; }
+
+.site-wrap.no-bottom .site-content {
+  padding-bottom: 0; }
+
+.detail {
+  position: relative;
+  padding: 0.26667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .detail .detail-title {
+    font-size: 0.37333rem;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0.13333rem; }
+  .detail .detail-img {
+    background: no-repeat;
+    background-size: cover;
+    margin-bottom: 0.26667rem;
+    width: 100%;
+    height: 6.66667rem; }
+  .detail .detail-content {
+    font-size: 0.24rem;
+    line-height: 0.74667rem;
+    margin-bottom: 0.26667rem; }
+  .detail .detail-user {
+    font-size: 0.18667rem;
+    color: #8c8c8c;
+    margin-bottom: 0.33333rem; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzc3IvZGV0YWlsL2luZGV4LmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/

@@ -1,0 +1,39 @@
+2019-02-26 15:17:20,453 ERROR 20010 [-/127.0.0.1/-/18ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/index.html:7
+    5|   <body>
+    6|     <div>fsdfsllslsl</div>
+ >> 7|     <div><%= bs %></div>
+    8|   </body>
+    9| </html>
+
+bs is not defined
+    5|   <body>
+    6|     <div>fsdfsllslsl</div>
+ >> 7|     <div><%= bs %></div>
+    8|   </body>
+    9| </html>
+
+bs is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:11:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/index.html"
+pid: 20010
+hostname: localhost
+
+2019-02-26 15:26:56,056 ERROR 20369 [-/127.0.0.1/-/10ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.ejs from /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view
+    at Map.resolve (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 20369
+hostname: localhost
+

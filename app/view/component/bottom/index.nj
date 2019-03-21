@@ -1,0 +1,8 @@
+{% macro curClass(name) -%}
+    {%if name == curType%}cur{% endif %}
+{%- endmacro %}
+
+<div class='site-bottom'>
+    <a href='/ssr' class="{{curClass('index')}}">主页</a>
+    <a href='/ssr/news' class="{{curClass('news')}}">新闻</a>
+</div>

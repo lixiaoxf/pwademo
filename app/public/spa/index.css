@@ -1,0 +1,495 @@
+.site-top {
+  height: 100%;
+  padding-left: rem(15);
+  display: flex;
+  align-items: center;
+}
+.site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: rem(180) rem(62);
+    height: rem(62);
+    width: rem(180);
+}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+html, html body, #app {
+  width: 100%;
+  height: 100%;
+}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-bottom {
+  height: 100%;
+  display: flex;
+}
+.site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.site-bottom a.cur {
+      background: #ff5655;
+      color: #fff;
+}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-top {
+  height: 100%;
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: 2.4rem 0.82667rem;
+    height: 0.82667rem;
+    width: 2.4rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-bottom {
+  height: 100%;
+  display: flex;
+}
+.site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.site-bottom a.cur {
+      background: #ff5655;
+      color: #fff;
+}
+html, html body {
+  height: 100%;
+}
+.site-wrap {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.site-wrap .site-header {
+    height: 1.33333rem;
+    margin-bottom: -1.33333rem;
+    position: relative;
+    z-index: 1;
+}
+.site-wrap .site-footer {
+    position: relative;
+    z-index: 1;
+    height: 1.33333rem;
+    margin-top: -1.33333rem;
+}
+.site-wrap .site-content {
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 1.33333rem;
+    padding-bottom: 1.33333rem;
+}
+.site-wrap .site-content .site-content-inner {
+      height: 100%;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch;
+}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-top {
+  height: 100%;
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: 2.4rem 0.82667rem;
+    height: 0.82667rem;
+    width: 2.4rem;
+}
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+.video-list .video-card {
+    box-shadow: 0 0.06667rem 0.06667rem rgba(0, 0, 0, 0.08);
+    margin-bottom: 0.26667rem;
+    border-radius: 0.10667rem;
+    overflow: hidden;
+    text-decoration: none;
+}
+.video-list .video-card div {
+      width: 4.66667rem;
+      height: 2.93333rem;
+      background: no-repeat;
+      background-size: cover;
+}
+.video-list .video-card p {
+      font-size: 0.32rem;
+      line-height: 0.42667rem;
+      padding: 0.13333rem;
+      color: #000;
+}
+.video-list .default-video-card {
+  width: 4.66667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.06667rem;
+  margin-bottom: 0.2rem;
+}
+.video-list .default-video-card span {
+    width: 100%;
+    height: 2.66667rem;
+    margin-bottom: 0.06667rem;
+    background: #e0e0e0;
+    display: block;
+    border-radius: 0.2rem;
+}
+.video-list .default-video-card p {
+    height: 0.46667rem;
+    background: #e0e0e0;
+    border-radius: 0.13333rem;
+}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-top {
+  height: 100%;
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: 2.4rem 0.82667rem;
+    height: 0.82667rem;
+    width: 2.4rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-bottom {
+  height: 100%;
+  display: flex;
+}
+.site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.site-bottom a.cur {
+      background: #ff5655;
+      color: #fff;
+}
+html, html body {
+  height: 100%;
+}
+.site-wrap {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.site-wrap .site-header {
+    height: 1.33333rem;
+    margin-bottom: -1.33333rem;
+    position: relative;
+    z-index: 1;
+}
+.site-wrap .site-footer {
+    position: relative;
+    z-index: 1;
+    height: 1.33333rem;
+    margin-top: -1.33333rem;
+}
+.site-wrap .site-content {
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 1.33333rem;
+    padding-bottom: 1.33333rem;
+}
+.site-wrap .site-content .site-content-inner {
+      height: 100%;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch;
+}
+.site-wrap.no-bottom .site-content {
+  padding-bottom: 0;
+}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.news-list {
+  width: 100%;
+}
+.news-list .news-card {
+    box-sizing: border-box;
+    padding: 0.13333rem 0.26667rem;
+    height: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 0.26667rem;
+}
+.news-list .news-card div {
+      width: 2.93333rem;
+      height: 100%;
+      position: absolute;
+      background-size: cover;
+      right: 0.26667rem;
+      top: 0;
+}
+.news-list .news-card p {
+      display: inline-block;
+      box-sizing: border-box;
+      padding-right: 3.13333rem;
+      font-size: 0.34667rem;
+      line-height: 0.56rem;
+      color: #000;
+}
+.news-list .default-news-card {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.13333rem 0.26667rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.13333rem;
+}
+.news-list .default-news-card p {
+    width: 6.53333rem;
+    height: 100%;
+    background: #e0e0e0;
+    margin-right: 0.13333rem;
+    border-radius: 0.2rem;
+}
+.news-list .default-news-card span {
+    width: 2.93333rem;
+    border-radius: 0.2rem;
+    height: 100%;
+    background: #e0e0e0;
+}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-top {
+  height: 100%;
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: 2.4rem 0.82667rem;
+    height: 0.82667rem;
+    width: 2.4rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-bottom {
+  height: 100%;
+  display: flex;
+}
+.site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.site-bottom a.cur {
+      background: #ff5655;
+      color: #fff;
+}
+html, html body {
+  height: 100%;
+}
+.site-wrap {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.site-wrap .site-header {
+    height: 1.33333rem;
+    margin-bottom: -1.33333rem;
+    position: relative;
+    z-index: 1;
+}
+.site-wrap .site-footer {
+    position: relative;
+    z-index: 1;
+    height: 1.33333rem;
+    margin-top: -1.33333rem;
+}
+.site-wrap .site-content {
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 1.33333rem;
+    padding-bottom: 1.33333rem;
+}
+.site-wrap .site-content .site-content-inner {
+      height: 100%;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch;
+}
+.site-wrap.no-bottom .site-content {
+  padding-bottom: 0;
+}
+.detail {
+  position: relative;
+  padding: 0.26667rem;
+  box-sizing: border-box;
+}
+.detail .detail-title {
+    font-size: 0.37333rem;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0.13333rem;
+}
+.detail .detail-img {
+    background: no-repeat;
+    background-size: cover;
+    margin-bottom: 0.26667rem;
+    width: 100%;
+    height: 6.66667rem;
+}
+.detail .detail-content {
+    font-size: 0.24rem;
+    line-height: 0.74667rem;
+    margin-bottom: 0.26667rem;
+}
+.detail .detail-user {
+    font-size: 0.18667rem;
+    color: #8c8c8c;
+    margin-bottom: 0.33333rem;
+}
+.default-detail-card {
+  padding: 0.26667rem;
+}
+.default-detail-card .detail-title {
+    height: 1rem;
+    background: #e0e0e0;
+    border-radius: 0.13333rem;
+    margin-bottom: 0.13333rem;
+}
+.default-detail-card .detail-user {
+    height: 0.53333rem;
+    width: 2rem;
+    background: #e0e0e0;
+    border-radius: 0.13333rem;
+    margin-bottom: 0.13333rem;
+}
+.default-detail-card .detail-img {
+    width: 100%;
+    height: 5.33333rem;
+    background: #e0e0e0;
+    border-radius: 0.13333rem;
+    margin-bottom: 0.13333rem;
+}
+.default-detail-card .detail-content p {
+    border-radius: 0.13333rem;
+    height: 0.53333rem;
+    margin-bottom: 0.13333rem;
+    background: #e0e0e0;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcGEvaW5kZXguY3NzIiwic291cmNlUm9vdCI6IiJ9*/

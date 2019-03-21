@@ -1,0 +1,18 @@
+{% extends "../common/base.nj" %}
+
+{% block head %}
+    {{style([
+        'home/index.css'
+    ])}}
+{% endblock %}
+
+{% block content %}
+    <div class="top">
+        <div class="bk"></div>
+        <div class="header">in home header</div>
+    </div>
+
+    {{script([
+        'home/index.js'
+    ])}}
+{% endblock %}

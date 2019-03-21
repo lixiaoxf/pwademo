@@ -1,0 +1,223 @@
+2019-02-26 15:17:15,051 INFO 20010 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:17:15,112 INFO 20010 [egg-multipart] stream mode enable
+2019-02-26 15:17:15,223 INFO 20010 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-26 15:17:15,228 INFO 20010 [egg-security] use csrf middleware
+2019-02-26 15:17:15,229 INFO 20010 [egg-security] use methodnoallow middleware
+2019-02-26 15:17:15,230 INFO 20010 [egg-security] use noopen middleware
+2019-02-26 15:17:15,230 INFO 20010 [egg-security] use nosniff middleware
+2019-02-26 15:17:15,232 INFO 20010 [egg-security] use xssProtection middleware
+2019-02-26 15:17:15,232 INFO 20010 [egg-security] use xframe middleware
+2019-02-26 15:17:15,233 INFO 20010 [egg-security] use dta middleware
+2019-02-26 15:17:15,233 INFO 20010 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 15:17:15,249 INFO 20010 [egg:core] dump config after load, 12ms
+2019-02-26 15:17:15,280 INFO 20010 [egg-watcher:application] watcher start success
+2019-02-26 15:17:15,313 INFO 20010 [egg:core] dump config after ready, 28ms
+2019-02-26 15:25:42,995 INFO 20363 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:25:43,033 INFO 20363 [egg-multipart] stream mode enable
+2019-02-26 15:25:43,133 INFO 20363 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-26 15:25:43,136 INFO 20363 [egg-security] use csrf middleware
+2019-02-26 15:25:43,137 INFO 20363 [egg-security] use methodnoallow middleware
+2019-02-26 15:25:43,138 INFO 20363 [egg-security] use noopen middleware
+2019-02-26 15:25:43,139 INFO 20363 [egg-security] use nosniff middleware
+2019-02-26 15:25:43,139 INFO 20363 [egg-security] use xssProtection middleware
+2019-02-26 15:25:43,140 INFO 20363 [egg-security] use xframe middleware
+2019-02-26 15:25:43,140 INFO 20363 [egg-security] use dta middleware
+2019-02-26 15:25:43,141 INFO 20363 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 15:25:43,151 INFO 20363 [egg:core] dump config after load, 5ms
+2019-02-26 15:25:43,171 INFO 20363 [egg-watcher:application] watcher start success
+2019-02-26 15:25:43,186 INFO 20363 [egg:core] dump config after ready, 12ms
+2019-02-26 15:26:51,114 INFO 20369 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:26:51,157 INFO 20369 [egg-multipart] stream mode enable
+2019-02-26 15:26:51,276 INFO 20369 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-26 15:26:51,278 INFO 20369 [egg-security] use csrf middleware
+2019-02-26 15:26:51,279 INFO 20369 [egg-security] use methodnoallow middleware
+2019-02-26 15:26:51,280 INFO 20369 [egg-security] use noopen middleware
+2019-02-26 15:26:51,281 INFO 20369 [egg-security] use nosniff middleware
+2019-02-26 15:26:51,281 INFO 20369 [egg-security] use xssProtection middleware
+2019-02-26 15:26:51,282 INFO 20369 [egg-security] use xframe middleware
+2019-02-26 15:26:51,282 INFO 20369 [egg-security] use dta middleware
+2019-02-26 15:26:51,282 INFO 20369 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 15:26:51,291 INFO 20369 [egg:core] dump config after load, 5ms
+2019-02-26 15:26:51,314 INFO 20369 [egg-watcher:application] watcher start success
+2019-02-26 15:26:51,334 INFO 20369 [egg:core] dump config after ready, 8ms
+2019-02-26 15:27:32,400 INFO 20372 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:27:32,438 INFO 20372 [egg-multipart] stream mode enable
+2019-02-26 15:27:32,517 INFO 20372 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-26 15:27:32,519 INFO 20372 [egg-security] use csrf middleware
+2019-02-26 15:27:32,520 INFO 20372 [egg-security] use methodnoallow middleware
+2019-02-26 15:27:32,521 INFO 20372 [egg-security] use noopen middleware
+2019-02-26 15:27:32,522 INFO 20372 [egg-security] use nosniff middleware
+2019-02-26 15:27:32,522 INFO 20372 [egg-security] use xssProtection middleware
+2019-02-26 15:27:32,523 INFO 20372 [egg-security] use xframe middleware
+2019-02-26 15:27:32,524 INFO 20372 [egg-security] use dta middleware
+2019-02-26 15:27:32,524 INFO 20372 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 15:27:32,532 INFO 20372 [egg:core] dump config after load, 4ms
+2019-02-26 15:27:32,543 INFO 20372 [egg-watcher:application] watcher start success
+2019-02-26 15:27:32,555 INFO 20372 [egg:core] dump config after ready, 10ms
+2019-02-26 17:55:26,880 INFO 20677 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 17:55:26,925 INFO 20677 [egg-multipart] stream mode enable
+2019-02-26 17:55:27,013 INFO 20677 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-26 17:55:27,016 INFO 20677 [egg-security] use csrf middleware
+2019-02-26 17:55:27,017 INFO 20677 [egg-security] use methodnoallow middleware
+2019-02-26 17:55:27,017 INFO 20677 [egg-security] use noopen middleware
+2019-02-26 17:55:27,018 INFO 20677 [egg-security] use nosniff middleware
+2019-02-26 17:55:27,018 INFO 20677 [egg-security] use xssProtection middleware
+2019-02-26 17:55:27,019 INFO 20677 [egg-security] use xframe middleware
+2019-02-26 17:55:27,020 INFO 20677 [egg-security] use dta middleware
+2019-02-26 17:55:27,020 INFO 20677 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 17:55:27,030 INFO 20677 [egg:core] dump config after load, 5ms
+2019-02-26 17:55:27,043 INFO 20677 [egg-watcher:application] watcher start success
+2019-02-26 17:55:27,062 INFO 20677 [egg:core] dump config after ready, 13ms
+2019-02-26 17:56:51,481 INFO 20680 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 17:56:51,521 INFO 20680 [egg-multipart] stream mode enable
+2019-02-26 17:56:51,598 INFO 20680 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-26 17:56:51,601 INFO 20680 [egg-security] use csrf middleware
+2019-02-26 17:56:51,601 INFO 20680 [egg-security] use methodnoallow middleware
+2019-02-26 17:56:51,602 INFO 20680 [egg-security] use noopen middleware
+2019-02-26 17:56:51,603 INFO 20680 [egg-security] use nosniff middleware
+2019-02-26 17:56:51,603 INFO 20680 [egg-security] use xssProtection middleware
+2019-02-26 17:56:51,604 INFO 20680 [egg-security] use xframe middleware
+2019-02-26 17:56:51,605 INFO 20680 [egg-security] use dta middleware
+2019-02-26 17:56:51,605 INFO 20680 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 17:56:51,613 INFO 20680 [egg:core] dump config after load, 5ms
+2019-02-26 17:56:51,626 INFO 20680 [egg-watcher:application] watcher start success
+2019-02-26 17:56:51,635 INFO 20680 [egg:core] dump config after ready, 4ms
+2019-02-26 20:01:32,274 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 20:11:40,543 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 20:11:40,543 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 20:32:12,157 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 20:32:12,157 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 20:53:04,527 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 20:53:04,528 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 21:13:36,969 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 21:21:27,546 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 21:21:27,546 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 21:42:18,916 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 21:42:18,916 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 22:01:29,279 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 22:01:29,280 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 22:22:20,745 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 22:42:52,285 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 23:03:43,862 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 23:03:43,862 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 23:24:16,369 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 23:24:16,369 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 23:44:48,011 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-26 23:44:48,012 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 00:01:37,469 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 00:22:09,030 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 00:43:01,593 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 00:43:01,594 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 01:03:33,164 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 01:03:33,165 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 01:24:24,759 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 01:44:56,176 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 02:05:28,738 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 02:26:20,210 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 02:26:20,210 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 02:46:52,759 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 02:46:52,760 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 03:07:44,191 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 03:07:44,191 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 03:21:33,620 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 03:21:33,620 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 03:31:44,041 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 03:31:44,042 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 03:52:15,310 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 04:11:26,017 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 04:11:26,018 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 04:32:18,537 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 04:52:50,039 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 05:06:42,579 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 05:27:14,183 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 05:27:14,183 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 05:48:06,611 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 06:08:38,059 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 06:08:38,059 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 06:21:29,015 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 06:21:29,015 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 07:03:52,501 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 07:03:52,501 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 07:13:44,807 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 07:13:44,807 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 07:43:48,249 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 08:04:39,650 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 08:04:39,651 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 08:25:11,225 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 08:25:11,225 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 08:43:43,017 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 08:43:43,017 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 09:25:04,282 WARN 20680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 09:25:04,282 WARN 20680 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 10:22:26,249 INFO 21111 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 10:22:26,285 INFO 21111 [egg-multipart] stream mode enable
+2019-02-27 10:22:26,340 INFO 21111 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-27 10:22:26,343 INFO 21111 [egg-security] use csrf middleware
+2019-02-27 10:22:26,343 INFO 21111 [egg-security] use methodnoallow middleware
+2019-02-27 10:22:26,344 INFO 21111 [egg-security] use noopen middleware
+2019-02-27 10:22:26,344 INFO 21111 [egg-security] use nosniff middleware
+2019-02-27 10:22:26,344 INFO 21111 [egg-security] use xssProtection middleware
+2019-02-27 10:22:26,345 INFO 21111 [egg-security] use xframe middleware
+2019-02-27 10:22:26,345 INFO 21111 [egg-security] use dta middleware
+2019-02-27 10:22:26,345 INFO 21111 [egg-security] compose 7 middlewares into one security middleware
+2019-02-27 10:22:26,354 INFO 21111 [egg:core] dump config after load, 4ms
+2019-02-27 10:22:26,376 INFO 21111 [egg-watcher:application] watcher start success
+2019-02-27 10:22:26,387 INFO 21111 [egg:core] dump config after ready, 7ms
+2019-02-27 10:55:17,712 INFO 21176 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 10:55:17,750 INFO 21176 [egg-multipart] stream mode enable
+2019-02-27 10:55:17,835 INFO 21176 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-27 10:55:17,837 INFO 21176 [egg-security] use csrf middleware
+2019-02-27 10:55:17,838 INFO 21176 [egg-security] use methodnoallow middleware
+2019-02-27 10:55:17,839 INFO 21176 [egg-security] use noopen middleware
+2019-02-27 10:55:17,840 INFO 21176 [egg-security] use nosniff middleware
+2019-02-27 10:55:17,841 INFO 21176 [egg-security] use xssProtection middleware
+2019-02-27 10:55:17,841 INFO 21176 [egg-security] use xframe middleware
+2019-02-27 10:55:17,842 INFO 21176 [egg-security] use dta middleware
+2019-02-27 10:55:17,842 INFO 21176 [egg-security] compose 7 middlewares into one security middleware
+2019-02-27 10:55:17,851 INFO 21176 [egg:core] dump config after load, 5ms
+2019-02-27 10:55:17,870 INFO 21176 [egg-watcher:application] watcher start success
+2019-02-27 10:55:17,886 INFO 21176 [egg:core] dump config after ready, 14ms
+2019-02-27 11:48:40,117 INFO 21311 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 11:48:40,180 INFO 21311 [egg-multipart] stream mode enable
+2019-02-27 11:48:40,312 INFO 21311 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-27 11:48:40,316 INFO 21311 [egg-security] use csrf middleware
+2019-02-27 11:48:40,318 INFO 21311 [egg-security] use methodnoallow middleware
+2019-02-27 11:48:40,319 INFO 21311 [egg-security] use noopen middleware
+2019-02-27 11:48:40,320 INFO 21311 [egg-security] use nosniff middleware
+2019-02-27 11:48:40,321 INFO 21311 [egg-security] use xssProtection middleware
+2019-02-27 11:48:40,323 INFO 21311 [egg-security] use xframe middleware
+2019-02-27 11:48:40,324 INFO 21311 [egg-security] use dta middleware
+2019-02-27 11:48:40,324 INFO 21311 [egg-security] compose 7 middlewares into one security middleware
+2019-02-27 11:48:40,341 INFO 21311 [egg:core] dump config after load, 9ms
+2019-02-27 11:48:40,365 INFO 21311 [egg-watcher:application] watcher start success
+2019-02-27 11:48:40,385 INFO 21311 [egg:core] dump config after ready, 17ms
+2019-02-27 11:48:47,070 INFO 21314 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 11:48:47,114 INFO 21314 [egg-multipart] stream mode enable
+2019-02-27 11:48:47,190 INFO 21314 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-27 11:48:47,193 INFO 21314 [egg-security] use csrf middleware
+2019-02-27 11:48:47,194 INFO 21314 [egg-security] use methodnoallow middleware
+2019-02-27 11:48:47,194 INFO 21314 [egg-security] use noopen middleware
+2019-02-27 11:48:47,195 INFO 21314 [egg-security] use nosniff middleware
+2019-02-27 11:48:47,195 INFO 21314 [egg-security] use xssProtection middleware
+2019-02-27 11:48:47,196 INFO 21314 [egg-security] use xframe middleware
+2019-02-27 11:48:47,197 INFO 21314 [egg-security] use dta middleware
+2019-02-27 11:48:47,197 INFO 21314 [egg-security] compose 7 middlewares into one security middleware
+2019-02-27 11:48:47,206 INFO 21314 [egg:core] dump config after load, 5ms
+2019-02-27 11:48:47,219 INFO 21314 [egg-watcher:application] watcher start success
+2019-02-27 11:48:47,232 INFO 21314 [egg:core] dump config after ready, 11ms
+2019-02-27 11:54:09,242 INFO 21368 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/logs/pwa-new","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"pwa-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 11:54:09,280 INFO 21368 [egg-multipart] stream mode enable
+2019-02-27 11:54:09,333 INFO 21368 [egg-static] starting static serve /public/ -> /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/public
+2019-02-27 11:54:09,335 INFO 21368 [egg-security] use csrf middleware
+2019-02-27 11:54:09,336 INFO 21368 [egg-security] use methodnoallow middleware
+2019-02-27 11:54:09,336 INFO 21368 [egg-security] use noopen middleware
+2019-02-27 11:54:09,337 INFO 21368 [egg-security] use nosniff middleware
+2019-02-27 11:54:09,337 INFO 21368 [egg-security] use xssProtection middleware
+2019-02-27 11:54:09,338 INFO 21368 [egg-security] use xframe middleware
+2019-02-27 11:54:09,338 INFO 21368 [egg-security] use dta middleware
+2019-02-27 11:54:09,338 INFO 21368 [egg-security] compose 7 middlewares into one security middleware
+2019-02-27 11:54:09,347 INFO 21368 [egg:core] dump config after load, 5ms
+2019-02-27 11:54:09,372 INFO 21368 [egg-watcher:application] watcher start success
+2019-02-27 11:54:09,381 INFO 21368 [egg:core] dump config after ready, 4ms
+2019-02-27 13:28:23,253 WARN 21368 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 13:39:35,806 WARN 21368 [ClusterClient:Watcher] follower closed, and try to init it again

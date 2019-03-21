@@ -1,0 +1,163 @@
+.site-top {
+  height: 100%;
+  padding-left: rem(15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: rem(180) rem(62);
+    height: rem(62);
+    width: rem(180); }
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.site-bottom {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none; }
+    .site-bottom a.cur {
+      background: #ff5655;
+      color: #fff; }
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.site-top {
+  height: 100%;
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center; }
+  .site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: 2.4rem 0.82667rem;
+    height: 0.82667rem;
+    width: 2.4rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.site-bottom {
+  height: 100%;
+  display: flex; }
+  .site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; }
+    .site-bottom a.cur {
+      background: #ff5655;
+      color: #fff; }
+
+html, html body {
+  height: 100%; }
+
+.site-wrap {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%; }
+  .site-wrap .site-header {
+    height: 1.33333rem;
+    margin-bottom: -1.33333rem;
+    position: relative;
+    z-index: 1; }
+  .site-wrap .site-footer {
+    position: relative;
+    z-index: 1;
+    height: 1.33333rem;
+    margin-top: -1.33333rem; }
+  .site-wrap .site-content {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 1.33333rem;
+    padding-bottom: 1.33333rem; }
+    .site-wrap .site-content .site-content-inner {
+      height: 100%;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch; }
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
+.news-list {
+  width: 100%; }
+  .news-list .news-card {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.13333rem 0.26667rem;
+    height: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 0.26667rem; }
+    .news-list .news-card div {
+      width: 2.93333rem;
+      height: 100%;
+      position: absolute;
+      background-size: cover;
+      right: 0.26667rem;
+      top: 0; }
+    .news-list .news-card p {
+      display: inline-block;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-right: 3.13333rem;
+      font-size: 0.34667rem;
+      line-height: 0.56rem;
+      color: #000; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzc3IvbmV3cy9pbmRleC5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/

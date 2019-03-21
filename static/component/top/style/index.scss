@@ -1,0 +1,12 @@
+.site-top{
+    height: 100%;
+    padding-left: rem(15);
+    display: flex;
+    align-items: center;
+    h1{
+        background: url('http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png') no-repeat;
+        background-size: rem(180) rem(62);
+        height: rem(62);
+        width: rem(180);
+    }
+}

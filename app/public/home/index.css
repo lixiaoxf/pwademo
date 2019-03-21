@@ -1,0 +1,17 @@
+.top .bk {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  background: url(/home/res/index/rm1f99c.min.png) no-repeat; }
+
+.top .header {
+  background: blue;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  height: 160px;
+  line-height: 160px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJob21lL2luZGV4LmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/

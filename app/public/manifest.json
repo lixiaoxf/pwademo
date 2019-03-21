@@ -1,0 +1,15 @@
+{
+  "common/vendors.js": "common/vendors.chunk.js",
+  "home/index.js": "home/index.js",
+  "home/index.css": "home/index.css",
+  "spa/index.js": "spa/index.js",
+  "spa/index.css": "spa/index.css",
+  "ssr/detail/index.js": "ssr/detail/index.js",
+  "ssr/detail/index.css": "ssr/detail/index.css",
+  "ssr/index/index.js": "ssr/index/index.js",
+  "ssr/index/index.css": "ssr/index/index.css",
+  "ssr/news/index.js": "ssr/news/index.js",
+  "ssr/news/index.css": "ssr/news/index.css",
+  "home/res/index/rm.png": "home/res/index/rm1f99c.min.png",
+  "sw-ssr.js": "sw-ssr.js"
+}

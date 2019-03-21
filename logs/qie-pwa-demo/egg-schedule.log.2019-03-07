@@ -1,0 +1,40 @@
+2019-03-05 15:36:02,041 INFO 34392 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30237962ms at 2019-03-06 00:00:00.003
+2019-03-05 15:36:02,042 INFO 34392 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30238959ms at 2019-03-06 00:00:01.001
+2019-03-05 15:36:01,862 INFO 34393 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-05 15:36:01,862 INFO 34393 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-06 09:46:43,332 INFO 34971 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 51196671ms at 2019-03-07 00:00:00.003
+2019-03-06 09:46:43,334 INFO 34971 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51197667ms at 2019-03-07 00:00:01.001
+2019-03-06 09:46:43,184 INFO 34972 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-06 09:46:43,184 INFO 34972 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-06 14:26:39,024 INFO 36269 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34400981ms at 2019-03-07 00:00:00.005
+2019-03-06 14:26:39,025 INFO 36269 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34401976ms at 2019-03-07 00:00:01.001
+2019-03-06 14:26:38,866 INFO 36270 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-06 14:26:38,867 INFO 36270 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-06 14:30:57,760 INFO 36292 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34142244ms at 2019-03-07 00:00:00.004
+2019-03-06 14:30:57,760 INFO 36292 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34143240ms at 2019-03-07 00:00:01.000
+2019-03-06 14:30:57,610 INFO 36293 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-06 14:30:57,610 INFO 36293 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-06 17:47:57,761 INFO 37136 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22322246ms at 2019-03-07 00:00:00.006
+2019-03-06 17:47:57,761 INFO 37136 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22323239ms at 2019-03-07 00:00:01.000
+2019-03-06 17:47:57,580 INFO 37137 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-06 17:47:57,580 INFO 37137 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-07 14:16:55,805 INFO 39978 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34984199ms at 2019-03-08 00:00:00.004
+2019-03-07 14:16:55,806 INFO 39978 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34985195ms at 2019-03-08 00:00:01.001
+2019-03-07 14:16:55,641 INFO 39979 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-07 14:16:55,641 INFO 39979 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-07 16:48:28,635 INFO 40494 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25891369ms at 2019-03-08 00:00:00.004
+2019-03-07 16:48:28,636 INFO 40494 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25892365ms at 2019-03-08 00:00:01.001
+2019-03-07 16:48:28,481 INFO 40495 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-07 16:48:28,481 INFO 40495 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-07 17:01:16,826 INFO 40510 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25123177ms at 2019-03-08 00:00:00.003
+2019-03-07 17:01:16,827 INFO 40510 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25124173ms at 2019-03-08 00:00:01.000
+2019-03-07 17:01:16,650 INFO 40511 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-07 17:01:16,650 INFO 40511 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-07 17:50:41,266 INFO 40698 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-07 17:50:41,266 INFO 40698 [egg-schedule]: register schedule /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-08 00:00:00,333 INFO 40510 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399695ms at 2019-03-09 00:00:00.027
+2019-03-08 00:00:00,383 INFO 40698 [Job#15519744002576884584513740131] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2019-03-08 00:00:00,424 INFO 40698 [Job#15519744002576884584513740131] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 23ms
+2019-03-08 00:00:01,009 INFO 40698 [Job#15519744010056884591907150671] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-03-08 00:00:01,020 INFO 40698 [Job#15519744010056884591907150671] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 11ms
+2019-03-08 00:00:01,012 INFO 40510 [Timer] /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399993ms at 2019-03-09 00:00:01.005

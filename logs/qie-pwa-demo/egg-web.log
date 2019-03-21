@@ -1,0 +1,196 @@
+2019-03-21 00:00:01,059 INFO 64969 [egg-logrotator] app logger reload: got log-reload message
+2019-03-21 11:43:30,979 INFO 70021 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 11:43:31,027 INFO 70021 [egg-multipart] stream mode enable
+2019-03-21 11:43:31,124 INFO 70021 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 11:43:31,127 INFO 70021 [egg-security] use csrf middleware
+2019-03-21 11:43:31,128 INFO 70021 [egg-security] use methodnoallow middleware
+2019-03-21 11:43:31,128 INFO 70021 [egg-security] use noopen middleware
+2019-03-21 11:43:31,129 INFO 70021 [egg-security] use nosniff middleware
+2019-03-21 11:43:31,130 INFO 70021 [egg-security] use xssProtection middleware
+2019-03-21 11:43:31,131 INFO 70021 [egg-security] use xframe middleware
+2019-03-21 11:43:31,131 INFO 70021 [egg-security] use dta middleware
+2019-03-21 11:43:31,131 INFO 70021 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 11:43:31,151 INFO 70021 [egg:core] dump config after load, 6ms
+2019-03-21 11:43:31,210 INFO 70021 [egg-watcher:application] watcher start success
+2019-03-21 11:43:31,212 INFO 70021 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 11:43:31,221 INFO 70021 [egg:core] dump config after ready, 4ms
+2019-03-21 18:53:30,187 INFO 70743 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:53:30,230 INFO 70743 [egg-multipart] stream mode enable
+2019-03-21 18:53:30,309 INFO 70743 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:53:30,312 INFO 70743 [egg-security] use csrf middleware
+2019-03-21 18:53:30,313 INFO 70743 [egg-security] use methodnoallow middleware
+2019-03-21 18:53:30,313 INFO 70743 [egg-security] use noopen middleware
+2019-03-21 18:53:30,314 INFO 70743 [egg-security] use nosniff middleware
+2019-03-21 18:53:30,315 INFO 70743 [egg-security] use xssProtection middleware
+2019-03-21 18:53:30,315 INFO 70743 [egg-security] use xframe middleware
+2019-03-21 18:53:30,316 INFO 70743 [egg-security] use dta middleware
+2019-03-21 18:53:30,316 INFO 70743 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:53:30,338 INFO 70743 [egg:core] dump config after load, 5ms
+2019-03-21 18:53:30,379 INFO 70743 [egg-watcher:application] watcher start success
+2019-03-21 18:53:30,381 INFO 70743 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:53:30,390 INFO 70743 [egg:core] dump config after ready, 5ms
+2019-03-21 18:53:41,790 INFO 70745 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:53:41,869 INFO 70745 [egg-multipart] stream mode enable
+2019-03-21 18:53:41,946 INFO 70745 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:53:41,950 INFO 70745 [egg-security] use csrf middleware
+2019-03-21 18:53:41,951 INFO 70745 [egg-security] use methodnoallow middleware
+2019-03-21 18:53:41,951 INFO 70745 [egg-security] use noopen middleware
+2019-03-21 18:53:41,952 INFO 70745 [egg-security] use nosniff middleware
+2019-03-21 18:53:41,952 INFO 70745 [egg-security] use xssProtection middleware
+2019-03-21 18:53:41,952 INFO 70745 [egg-security] use xframe middleware
+2019-03-21 18:53:41,953 INFO 70745 [egg-security] use dta middleware
+2019-03-21 18:53:41,953 INFO 70745 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:53:41,972 INFO 70745 [egg:core] dump config after load, 10ms
+2019-03-21 18:53:41,998 INFO 70745 [egg-watcher:application] watcher start success
+2019-03-21 18:53:42,001 INFO 70745 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:53:42,025 INFO 70745 [egg:core] dump config after ready, 8ms
+2019-03-21 18:53:53,315 INFO 70747 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:53:53,353 INFO 70747 [egg-multipart] stream mode enable
+2019-03-21 18:53:53,393 INFO 70747 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:53:53,395 INFO 70747 [egg-security] use csrf middleware
+2019-03-21 18:53:53,396 INFO 70747 [egg-security] use methodnoallow middleware
+2019-03-21 18:53:53,396 INFO 70747 [egg-security] use noopen middleware
+2019-03-21 18:53:53,396 INFO 70747 [egg-security] use nosniff middleware
+2019-03-21 18:53:53,397 INFO 70747 [egg-security] use xssProtection middleware
+2019-03-21 18:53:53,397 INFO 70747 [egg-security] use xframe middleware
+2019-03-21 18:53:53,397 INFO 70747 [egg-security] use dta middleware
+2019-03-21 18:53:53,397 INFO 70747 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:53:53,417 INFO 70747 [egg:core] dump config after load, 11ms
+2019-03-21 18:53:53,439 INFO 70747 [egg-watcher:application] watcher start success
+2019-03-21 18:53:53,441 INFO 70747 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:53:53,451 INFO 70747 [egg:core] dump config after ready, 6ms
+2019-03-21 18:54:10,963 INFO 70748 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:54:11,031 INFO 70748 [egg-multipart] stream mode enable
+2019-03-21 18:54:11,219 INFO 70748 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:54:11,223 INFO 70748 [egg-security] use csrf middleware
+2019-03-21 18:54:11,224 INFO 70748 [egg-security] use methodnoallow middleware
+2019-03-21 18:54:11,224 INFO 70748 [egg-security] use noopen middleware
+2019-03-21 18:54:11,225 INFO 70748 [egg-security] use nosniff middleware
+2019-03-21 18:54:11,225 INFO 70748 [egg-security] use xssProtection middleware
+2019-03-21 18:54:11,226 INFO 70748 [egg-security] use xframe middleware
+2019-03-21 18:54:11,226 INFO 70748 [egg-security] use dta middleware
+2019-03-21 18:54:11,226 INFO 70748 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:54:11,255 INFO 70748 [egg:core] dump config after load, 13ms
+2019-03-21 18:54:11,285 INFO 70748 [egg-watcher:application] watcher start success
+2019-03-21 18:54:11,291 INFO 70748 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:54:11,312 INFO 70748 [egg:core] dump config after ready, 12ms
+2019-03-21 18:54:19,892 INFO 70749 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:54:19,932 INFO 70749 [egg-multipart] stream mode enable
+2019-03-21 18:54:19,983 INFO 70749 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:54:19,986 INFO 70749 [egg-security] use csrf middleware
+2019-03-21 18:54:19,987 INFO 70749 [egg-security] use methodnoallow middleware
+2019-03-21 18:54:19,987 INFO 70749 [egg-security] use noopen middleware
+2019-03-21 18:54:19,987 INFO 70749 [egg-security] use nosniff middleware
+2019-03-21 18:54:19,988 INFO 70749 [egg-security] use xssProtection middleware
+2019-03-21 18:54:19,988 INFO 70749 [egg-security] use xframe middleware
+2019-03-21 18:54:19,989 INFO 70749 [egg-security] use dta middleware
+2019-03-21 18:54:19,989 INFO 70749 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:54:20,007 INFO 70749 [egg:core] dump config after load, 9ms
+2019-03-21 18:54:20,027 INFO 70749 [egg-watcher:application] watcher start success
+2019-03-21 18:54:20,031 INFO 70749 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:54:20,041 INFO 70749 [egg:core] dump config after ready, 4ms
+2019-03-21 18:54:31,799 INFO 70750 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:54:31,835 INFO 70750 [egg-multipart] stream mode enable
+2019-03-21 18:54:31,885 INFO 70750 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:54:31,887 INFO 70750 [egg-security] use csrf middleware
+2019-03-21 18:54:31,887 INFO 70750 [egg-security] use methodnoallow middleware
+2019-03-21 18:54:31,888 INFO 70750 [egg-security] use noopen middleware
+2019-03-21 18:54:31,888 INFO 70750 [egg-security] use nosniff middleware
+2019-03-21 18:54:31,888 INFO 70750 [egg-security] use xssProtection middleware
+2019-03-21 18:54:31,888 INFO 70750 [egg-security] use xframe middleware
+2019-03-21 18:54:31,889 INFO 70750 [egg-security] use dta middleware
+2019-03-21 18:54:31,889 INFO 70750 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:54:31,906 INFO 70750 [egg:core] dump config after load, 9ms
+2019-03-21 18:54:31,929 INFO 70750 [egg-watcher:application] watcher start success
+2019-03-21 18:54:31,932 INFO 70750 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:54:31,951 INFO 70750 [egg:core] dump config after ready, 7ms
+2019-03-21 18:55:12,940 INFO 70756 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:55:12,986 INFO 70756 [egg-multipart] stream mode enable
+2019-03-21 18:55:13,034 INFO 70756 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:55:13,036 INFO 70756 [egg-security] use csrf middleware
+2019-03-21 18:55:13,037 INFO 70756 [egg-security] use methodnoallow middleware
+2019-03-21 18:55:13,037 INFO 70756 [egg-security] use noopen middleware
+2019-03-21 18:55:13,038 INFO 70756 [egg-security] use nosniff middleware
+2019-03-21 18:55:13,038 INFO 70756 [egg-security] use xssProtection middleware
+2019-03-21 18:55:13,038 INFO 70756 [egg-security] use xframe middleware
+2019-03-21 18:55:13,039 INFO 70756 [egg-security] use dta middleware
+2019-03-21 18:55:13,039 INFO 70756 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:55:13,056 INFO 70756 [egg:core] dump config after load, 9ms
+2019-03-21 18:55:13,083 INFO 70756 [egg-watcher:application] watcher start success
+2019-03-21 18:55:13,087 INFO 70756 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:55:13,105 INFO 70756 [egg:core] dump config after ready, 4ms
+2019-03-21 18:56:00,204 INFO 70759 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:56:00,246 INFO 70759 [egg-multipart] stream mode enable
+2019-03-21 18:56:00,335 INFO 70759 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:56:00,337 INFO 70759 [egg-security] use csrf middleware
+2019-03-21 18:56:00,338 INFO 70759 [egg-security] use methodnoallow middleware
+2019-03-21 18:56:00,339 INFO 70759 [egg-security] use noopen middleware
+2019-03-21 18:56:00,339 INFO 70759 [egg-security] use nosniff middleware
+2019-03-21 18:56:00,340 INFO 70759 [egg-security] use xssProtection middleware
+2019-03-21 18:56:00,341 INFO 70759 [egg-security] use xframe middleware
+2019-03-21 18:56:00,341 INFO 70759 [egg-security] use dta middleware
+2019-03-21 18:56:00,341 INFO 70759 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:56:00,360 INFO 70759 [egg:core] dump config after load, 5ms
+2019-03-21 18:56:00,392 INFO 70759 [egg-watcher:application] watcher start success
+2019-03-21 18:56:00,396 INFO 70759 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:56:00,416 INFO 70759 [egg:core] dump config after ready, 15ms
+2019-03-21 18:56:05,251 INFO 70760 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:56:05,291 INFO 70760 [egg-multipart] stream mode enable
+2019-03-21 18:56:05,348 INFO 70760 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:56:05,350 INFO 70760 [egg-security] use csrf middleware
+2019-03-21 18:56:05,351 INFO 70760 [egg-security] use methodnoallow middleware
+2019-03-21 18:56:05,351 INFO 70760 [egg-security] use noopen middleware
+2019-03-21 18:56:05,351 INFO 70760 [egg-security] use nosniff middleware
+2019-03-21 18:56:05,352 INFO 70760 [egg-security] use xssProtection middleware
+2019-03-21 18:56:05,352 INFO 70760 [egg-security] use xframe middleware
+2019-03-21 18:56:05,352 INFO 70760 [egg-security] use dta middleware
+2019-03-21 18:56:05,352 INFO 70760 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:56:05,374 INFO 70760 [egg:core] dump config after load, 12ms
+2019-03-21 18:56:05,397 INFO 70760 [egg-watcher:application] watcher start success
+2019-03-21 18:56:05,399 INFO 70760 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:56:05,416 INFO 70760 [egg:core] dump config after ready, 4ms
+2019-03-21 18:56:25,541 INFO 70761 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:56:25,583 INFO 70761 [egg-multipart] stream mode enable
+2019-03-21 18:56:25,658 INFO 70761 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:56:25,661 INFO 70761 [egg-security] use csrf middleware
+2019-03-21 18:56:25,662 INFO 70761 [egg-security] use methodnoallow middleware
+2019-03-21 18:56:25,662 INFO 70761 [egg-security] use noopen middleware
+2019-03-21 18:56:25,663 INFO 70761 [egg-security] use nosniff middleware
+2019-03-21 18:56:25,663 INFO 70761 [egg-security] use xssProtection middleware
+2019-03-21 18:56:25,664 INFO 70761 [egg-security] use xframe middleware
+2019-03-21 18:56:25,665 INFO 70761 [egg-security] use dta middleware
+2019-03-21 18:56:25,665 INFO 70761 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:56:25,686 INFO 70761 [egg:core] dump config after load, 5ms
+2019-03-21 18:56:25,711 INFO 70761 [egg-watcher:application] watcher start success
+2019-03-21 18:56:25,714 INFO 70761 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:56:25,813 INFO 70761 [egg:core] dump config after ready, 22ms
+2019-03-21 18:57:28,185 INFO 70763 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:57:28,290 INFO 70763 [egg-multipart] stream mode enable
+2019-03-21 18:57:28,393 INFO 70763 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:57:28,396 INFO 70763 [egg-security] use csrf middleware
+2019-03-21 18:57:28,398 INFO 70763 [egg-security] use methodnoallow middleware
+2019-03-21 18:57:28,398 INFO 70763 [egg-security] use noopen middleware
+2019-03-21 18:57:28,400 INFO 70763 [egg-security] use nosniff middleware
+2019-03-21 18:57:28,401 INFO 70763 [egg-security] use xssProtection middleware
+2019-03-21 18:57:28,402 INFO 70763 [egg-security] use xframe middleware
+2019-03-21 18:57:28,403 INFO 70763 [egg-security] use dta middleware
+2019-03-21 18:57:28,403 INFO 70763 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:57:28,426 INFO 70763 [egg:core] dump config after load, 6ms
+2019-03-21 18:57:28,453 INFO 70763 [egg-watcher:application] watcher start success
+2019-03-21 18:57:28,456 INFO 70763 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:57:28,473 INFO 70763 [egg:core] dump config after ready, 4ms
+2019-03-21 18:57:30,381 INFO 70764 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-21 18:57:30,431 INFO 70764 [egg-multipart] stream mode enable
+2019-03-21 18:57:30,491 INFO 70764 [egg-static] starting static serve / -> /Users/lixiao/Desktop/egg-pwa-new/app/public
+2019-03-21 18:57:30,494 INFO 70764 [egg-security] use csrf middleware
+2019-03-21 18:57:30,495 INFO 70764 [egg-security] use methodnoallow middleware
+2019-03-21 18:57:30,495 INFO 70764 [egg-security] use noopen middleware
+2019-03-21 18:57:30,495 INFO 70764 [egg-security] use nosniff middleware
+2019-03-21 18:57:30,496 INFO 70764 [egg-security] use xssProtection middleware
+2019-03-21 18:57:30,496 INFO 70764 [egg-security] use xframe middleware
+2019-03-21 18:57:30,497 INFO 70764 [egg-security] use dta middleware
+2019-03-21 18:57:30,497 INFO 70764 [egg-security] compose 7 middlewares into one security middleware
+2019-03-21 18:57:30,516 INFO 70764 [egg:core] dump config after load, 6ms
+2019-03-21 18:57:30,541 INFO 70764 [egg-watcher:application] watcher start success
+2019-03-21 18:57:30,543 INFO 70764 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/egg-pwa-new/app/view"]
+2019-03-21 18:57:30,562 INFO 70764 [egg:core] dump config after ready, 12ms

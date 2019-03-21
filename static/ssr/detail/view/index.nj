@@ -1,0 +1,26 @@
+{% extends "../../component/layout/noBottom.nj" %}
+
+{% block head %}
+    {{style([
+        'ssr/detail/index.css'
+    ])}}
+    <link rel="manifest" href="/manif-ssr.json">
+{% endblock %}
+
+{% block content %}
+    
+   <div class='detail'>
+        <div class='detail-title'>{{data.title}}</div>
+        <div class='detail-user'>作者：{{data.user}}</div>
+        <div class='detail-img' style='background-image:url({{data.icon}})'></div>
+        <p class='detail-content'>{{data.content}}</p>
+       
+    </div>
+    
+{% endblock %}
+
+{% block javascript %}
+    {{script([
+        'ssr/detail/index.js'
+    ])}}
+{% endblock %}

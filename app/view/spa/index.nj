@@ -1,0 +1,23 @@
+{% extends "../common/base.nj" %}
+
+{% block head %}
+
+    {{style([
+        'spa/index.css'
+    ])}}
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="企鹅体育">
+    <link rel="apple-touch-icon" href="/pwa/res/logo.png">
+    <link rel="manifest" href="/manif-spa.json">
+{% endblock %}
+
+{% block body %}
+   
+    <div id='app'></div>
+
+    {{script([
+        'spa/index.js'
+    ])}}
+
+{% endblock %}

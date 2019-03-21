@@ -1,0 +1,6 @@
+{
+    "name":"app-load-manifest",
+    "eggPlugin": {
+      "name": "loadManifest"
+    }
+  }

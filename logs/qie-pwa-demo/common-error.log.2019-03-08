@@ -1,0 +1,419 @@
+2019-03-08 12:02:11,568 ERROR 41416 [-/172.17.4.55/-/3ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><% static()%></div>  <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+static is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><% static()%></div>  <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+static is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:8)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41416
+hostname: localhost
+
+2019-03-08 12:03:27,185 ERROR 41429 [-/172.17.4.55/-/18ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><% static()%></div>  <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+static is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><% static()%></div>  <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+static is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:8)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41429
+hostname: localhost
+
+2019-03-08 12:04:35,472 ERROR 41432 [-/172.17.4.55/-/11ms GET /] nodejs.TypeError: ctx.static is not a function
+    at HomeController.index (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/controller/home.js:8:27)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 41432
+hostname: localhost
+
+2019-03-08 12:05:49,380 ERROR 41438 [-/172.17.4.55/-/17ms GET /] nodejs.TypeError: Cannot read property 'static' of undefined
+    at HomeController.index (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/controller/home.js:8:30)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 41438
+hostname: localhost
+
+2019-03-08 12:06:28,273 ERROR 41446 [-/172.17.4.55/-/13ms GET /] nodejs.TypeError: Cannot read property 'static' of undefined
+    at HomeController.index (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/controller/home.js:8:30)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/koa-compose/index.js:36:12
+
+pid: 41446
+hostname: localhost
+
+2019-03-08 12:06:50,934 ERROR 41448 [-/172.17.4.55/-/21ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><% static()%></div>  <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+static is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><% static()%></div>  <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+static is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:8)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41448
+hostname: localhost
+
+2019-03-08 13:33:11,383 ERROR 41445 nodejs.ClusterClientNoResponseError: client no response in 4481515ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 41445
+hostname: localhost
+
+2019-03-08 13:40:53,905 ERROR 41445 nodejs.ClusterClientNoResponseError: client no response in 422504ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 41445
+hostname: localhost
+
+2019-03-08 14:21:25,503 ERROR 41603 [-/172.17.4.55/-/29ms GET /] nodejs.TypeError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><% ctx.staticUrl('ff') %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+ctx.staticUrl is not a function
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><% ctx.staticUrl('ff') %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+ctx.staticUrl is not a function
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:12)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41603
+hostname: localhost
+
+2019-03-08 14:43:14,300 ERROR 41682 [-/172.17.4.55/-/29ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= stat() %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+stat is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= stat() %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+stat is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:7)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41682
+hostname: localhost
+
+2019-03-08 14:49:04,490 ERROR 41709 [-/172.17.4.55/-/17ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= n %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+n is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= n %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+n is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41709
+hostname: localhost
+
+2019-03-08 14:49:41,679 ERROR 41717 [-/172.17.4.55/-/21ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= n %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+n is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= n %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+n is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41717
+hostname: localhost
+
+2019-03-08 15:04:51,404 ERROR 41757 [-/172.17.4.55/-/31ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41757
+hostname: localhost
+
+2019-03-08 15:06:27,005 ERROR 41759 [-/172.17.4.55/-/17ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41759
+hostname: localhost
+
+2019-03-08 15:07:02,263 ERROR 41766 [-/172.17.4.55/-/19ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41766
+hostname: localhost
+
+2019-03-08 15:08:46,929 ERROR 41781 [-/172.17.4.55/-/17ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41781
+hostname: localhost
+
+2019-03-08 15:09:23,899 ERROR 41789 [-/172.17.4.55/-/19ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41789
+hostname: localhost
+
+2019-03-08 15:10:45,564 ERROR 41809 [-/172.17.4.55/-/19ms GET /] nodejs.ReferenceError: /Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html:1
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+ >> 1| <!doctype html> <html> <head> <title>test</title> <link href="../../public/home/index.css?d50ba4db652693a1ce42" rel="stylesheet"></head> <body> <div class=top> <div class=bk></div> <img src=/public/images/rm1f99c.min.png /> <div class=header>in home header</div> </div> <div><%= m %></div> <script type="text/javascript" src="../../public/common/labar.chunk.js?d50ba4db652693a1ce42"></script><script type="text/javascript" src="../../public/home/index.js?d50ba4db652693a1ce42"></script></body> </html>
+
+m is not defined
+    at eval (eval at compile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:10:26)
+    at returnedFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app/view/home/index.html"
+pid: 41809
+hostname: localhost
+
+2019-03-08 15:50:19,764 ERROR 41918 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app.js:24:5)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 41918
+hostname: localhost
+
+2019-03-08 15:57:40,954 ERROR 41940 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'helper' of undefined
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app.js:25:26)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 41940
+hostname: localhost
+
+2019-03-08 17:31:13,576 ERROR 42144 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.app.initms is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app.js:25:14)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 42144
+hostname: localhost
+
+2019-03-08 17:31:31,131 ERROR 42147 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.initms is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app.js:25:14)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 42147
+hostname: localhost
+
+2019-03-08 17:31:53,883 ERROR 42149 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: this.app.loadManifest.init is not a function
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app.js:24:27)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 42149
+hostname: localhost
+
+2019-03-08 17:53:51,189 ERROR 42184 nodejs.TypeError: Cannot read property '0' of undefined
+    at Object.init (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/lib/plugin/app-load-manifest/app/extend/application.js:10:30)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+
+pid: 42184
+hostname: localhost
+
+2019-03-08 18:04:35,833 ERROR 42219 nodejs.TypeError: callback provided to sync glob
+See: https://github.com/isaacs/node-glob/issues/167
+See: https://github.com/isaacs/node-glob/issues/167
+    at Function.globSync [as sync] (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/glob/sync.js:23:11)
+    at Object.init (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/lib/plugin/app-load-manifest/app/extend/application.js:9:18)
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app.js:24:27)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 42219
+hostname: localhost
+
+2019-03-08 18:28:56,145 ERROR 42322 nodejs.ReferenceError: erro is not defined (uncaughtException throw 1 times on pid:42322)
+    at ReadStream.readStream.on (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/lib/plugin/app-load-manifest/app/extend/application.js:12:29)
+    at ReadStream.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at fs.read (internal/fs/streams.js:183:12)
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:479:5)
+
+pid: 42322
+hostname: localhost
+
+2019-03-08 18:32:56,752 ERROR 42344 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type Function. Received type undefined
+    at checkListener (events.js:54:11)
+    at _addListener (events.js:213:3)
+    at ReadStream.addListener (events.js:271:10)
+    at ReadStream.Readable.on (_stream_readable.js:826:35)
+    at Object.init (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/lib/plugin/app-load-manifest/app/extend/application.js:11:41)
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app.js:27:27)
+    at Object.callFn (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+
+pid: 42344
+hostname: localhost
+
+2019-03-08 18:40:47,135 ERROR 42384 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.willReady (/Users/lixiao/Desktop/egg-pwa/egg-pwa-new/app.js:29:5)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+
+pid: 42384
+hostname: localhost
+

@@ -1,0 +1,30 @@
+@import '@/common/style/base.scss';
+.news-list{
+    width: 100%;
+    .news-card{
+        box-sizing: border-box;
+        padding: rem(10) rem(20);
+        height: rem(150);
+        box-sizing: border-box;
+        width: 100%;
+        display: block;
+        position: relative;
+        margin-bottom: rem(20);
+        div{
+            width: rem(220);
+            height: 100%;
+            position: absolute;
+            background-size: cover;
+            right: rem(20);
+            top:0;
+        }
+        p{
+            display: inline-block;
+            box-sizing: border-box;
+            padding-right: rem(235);
+            font-size: rem(26);
+            line-height: rem(42);
+            color: #000;
+        }
+    }
+}
