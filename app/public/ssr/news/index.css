@@ -40,6 +40,43 @@
 html, html body {
   font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
 
+.site-bottom {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none; }
+    .site-bottom a.cur {
+      background: #ff5655;
+      color: #fff; }
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
 .site-top {
   height: 100%;
   padding-left: 0.2rem;
@@ -121,43 +158,6 @@ html, html body {
       height: 100%;
       overflow: scroll;
       -webkit-overflow-scrolling: touch; }
-@charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0; }
-
-html, html body {
-  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
-
-.site-bottom {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .site-bottom a {
-    display: block;
-    height: 100%;
-    font-size: 0.29333rem;
-    letter-spacing: 0.02667rem;
-    font-weight: bold;
-    color: #000;
-    background: #fff;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-decoration: none; }
-    .site-bottom a.cur {
-      background: #ff5655;
-      color: #fff; }
 @charset "UTF-8";
 * {
   margin: 0;

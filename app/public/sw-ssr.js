@@ -9,6 +9,7 @@ this.addEventListener('install', function (event
         caches.open(cacheName).then(function (cache) {
             // 通过 cache 缓存对象的 addAll 方法添加 precache 缓存
             self.skipWaiting();
+            //addall 缓存失败一个那么整个列表缓存失败 所以注意分级缓存
             cache.addAll([
                 '/ssr/index/index.css',
                 '/ssr/index/index.js',
