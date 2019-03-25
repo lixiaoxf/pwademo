@@ -86,27 +86,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-session/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-jsonp/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-onerror/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-i18n/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-watcher/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-schedule/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-development/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-static/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view-nunjucks/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/lib/plugin/app-load-manifest/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/locales",
-        "/Users/lixiao/Desktop/egg-pwa-new/config/locales"
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-session\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-jsonp\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-onerror\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-i18n\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-watcher\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-schedule\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-development\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-static\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\lib\\plugin\\app-load-manifest\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\locales",
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -116,14 +116,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo/egg-schedule.log"
+        "file": "C:\\Users\\lixiao\\Desktop\\pwademo\\logs\\qie-pwa-demo\\egg-schedule.log"
       }
     },
     "schedule": {
@@ -140,7 +140,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/d_/fb6lncm96kqbmr34bsqphhm80000gn/T/egg-multipart-tmp/qie-pwa-demo",
+      "tmpdir": "C:\\Users\\lixiao\\AppData\\Local\\Temp\\egg-multipart-tmp\\qie-pwa-demo",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -163,7 +163,7 @@
     },
     "static": {
       "prefix": "/",
-      "dir": "/Users/lixiao/Desktop/egg-pwa-new/app/public",
+      "dir": "C:\\Users\\lixiao\\Desktop\\pwademo\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -171,7 +171,7 @@
     },
     "view": {
       "root": [
-        "/Users/lixiao/Desktop/egg-pwa-new/app/view"
+        "C:\\Users\\lixiao\\Desktop\\pwademo\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -213,6 +213,7 @@
         "lodash": "^4.17.11",
         "vue": "^2.6.8",
         "vue-router": "^3.0.2",
+        "web-push": "^3.3.3",
         "workbox-webpack-plugin": "^4.1.0"
       },
       "devDependencies": {
@@ -286,9 +287,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/lixiao/Desktop/egg-pwa-new",
-    "HOME": "/Users/lixiao",
-    "rundir": "/Users/lixiao/Desktop/egg-pwa-new/run",
+    "baseDir": "C:\\Users\\lixiao\\Desktop\\pwademo",
+    "HOME": "C:\\Users\\lixiao",
+    "rundir": "C:\\Users\\lixiao\\Desktop\\pwademo\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -319,7 +320,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/lixiao/Desktop/egg-pwa-new/logs/qie-pwa-demo",
+      "dir": "C:\\Users\\lixiao\\Desktop\\pwademo\\logs\\qie-pwa-demo",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -415,8 +416,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-session",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -428,8 +429,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-security",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security",
       "version": "2.4.3"
     },
     "jsonp": {
@@ -441,8 +442,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-jsonp",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -454,8 +455,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-onerror",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -465,8 +466,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-i18n",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -476,8 +477,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-watcher",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -487,8 +488,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-schedule",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-schedule",
       "version": "3.6.0"
     },
     "multipart": {
@@ -500,8 +501,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-multipart",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart",
       "version": "2.4.0"
     },
     "development": {
@@ -515,8 +516,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-development",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-development",
       "version": "2.4.2"
     },
     "logrotator": {
@@ -528,8 +529,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-logrotator",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator",
       "version": "3.0.5"
     },
     "static": {
@@ -539,8 +540,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-static",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -550,8 +551,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -564,18 +565,18 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/config/plugin.js",
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-view-nunjucks",
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\plugin.js",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
     },
     "loadManifest": {
       "enable": true,
-      "path": "/Users/lixiao/Desktop/egg-pwa-new/lib/plugin/app-load-manifest",
+      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\lib\\plugin\\app-load-manifest",
       "name": "loadManifest",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixiao/Desktop/egg-pwa-new/config/plugin.js"
+      "from": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\plugin.js"
     }
   }
 }

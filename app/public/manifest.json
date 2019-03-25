@@ -10,6 +10,5 @@
   "ssr/index/index.css": "ssr/index/index.css",
   "ssr/news/index.js": "ssr/news/index.js",
   "ssr/news/index.css": "ssr/news/index.css",
-  "home/res/index/rm.png": "home/res/index/rm1f99c.min.png",
-  "sw-ssr.js": "sw-ssr.js"
+  "home/res/index/rm.png": "home/res/index/rm1f99c.min.png"
 }

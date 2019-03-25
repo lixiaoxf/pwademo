@@ -73,6 +73,71 @@ html, html body {
     height: 0.82667rem;
     width: 2.4rem;
 }
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+.video-list .video-card {
+    box-shadow: 0 0.06667rem 0.06667rem rgba(0, 0, 0, 0.08);
+    margin-bottom: 0.26667rem;
+    border-radius: 0.10667rem;
+    overflow: hidden;
+    text-decoration: none;
+}
+.video-list .video-card div {
+      width: 4.66667rem;
+      height: 2.93333rem;
+      background: no-repeat;
+      background-size: cover;
+}
+.video-list .video-card p {
+      font-size: 0.32rem;
+      line-height: 0.42667rem;
+      padding: 0.13333rem;
+      color: #000;
+}
+.video-list .default-video-card {
+  width: 4.66667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.06667rem;
+  margin-bottom: 0.2rem;
+}
+.video-list .default-video-card span {
+    width: 100%;
+    height: 2.66667rem;
+    margin-bottom: 0.06667rem;
+    background: #e0e0e0;
+    display: block;
+    border-radius: 0.2rem;
+}
+.video-list .default-video-card p {
+    height: 0.46667rem;
+    background: #e0e0e0;
+    border-radius: 0.13333rem;
+}
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
+}
+.site-top {
+  height: 100%;
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.site-top h1 {
+    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
+    background-size: 2.4rem 0.82667rem;
+    height: 0.82667rem;
+    width: 2.4rem;
+}
 * {
   margin: 0;
   padding: 0;
@@ -133,71 +198,6 @@ html, html body {
       height: 100%;
       overflow: scroll;
       -webkit-overflow-scrolling: touch;
-}
-@charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-html, html body {
-  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体';
-}
-.site-top {
-  height: 100%;
-  padding-left: 0.2rem;
-  display: flex;
-  align-items: center;
-}
-.site-top h1 {
-    background: url("http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png") no-repeat;
-    background-size: 2.4rem 0.82667rem;
-    height: 0.82667rem;
-    width: 2.4rem;
-}
-.video-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0.2rem;
-}
-.video-list .video-card {
-    box-shadow: 0 0.06667rem 0.06667rem rgba(0, 0, 0, 0.08);
-    margin-bottom: 0.26667rem;
-    border-radius: 0.10667rem;
-    overflow: hidden;
-    text-decoration: none;
-}
-.video-list .video-card div {
-      width: 4.66667rem;
-      height: 2.93333rem;
-      background: no-repeat;
-      background-size: cover;
-}
-.video-list .video-card p {
-      font-size: 0.32rem;
-      line-height: 0.42667rem;
-      padding: 0.13333rem;
-      color: #000;
-}
-.video-list .default-video-card {
-  width: 4.66667rem;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0.06667rem;
-  margin-bottom: 0.2rem;
-}
-.video-list .default-video-card span {
-    width: 100%;
-    height: 2.66667rem;
-    margin-bottom: 0.06667rem;
-    background: #e0e0e0;
-    display: block;
-    border-radius: 0.2rem;
-}
-.video-list .default-video-card p {
-    height: 0.46667rem;
-    background: #e0e0e0;
-    border-radius: 0.13333rem;
 }
 @charset "UTF-8";
 * {

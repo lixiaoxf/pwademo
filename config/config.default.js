@@ -54,6 +54,11 @@ module.exports = appInfo => {
     prefix:'/',
     dir:path.join(appInfo.baseDir,'app/public')
   }
+  config.security = {
+    csrf:{
+      headerName: 'x-csrf-token',
+    }
+  }
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',

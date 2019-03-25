@@ -65,6 +65,30 @@
     ]
   },
   {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/pwapush/save",
+    "regexp": "/^\\/pwapush\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/pwapush/push",
+    "regexp": "/^\\/pwapush\\/push(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
     "name": "news",
     "methods": [
       "HEAD",

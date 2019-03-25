@@ -1,60 +1,610 @@
-2019-03-21 18:54:37,172 ERROR 70750 [-/127.0.0.1/-/16ms GET /api/v1/videos] nodejs.ReferenceError: list is not defined
-    at VideoService.getData (/Users/lixiao/Desktop/egg-pwa-new/app/service/video.js:25:9)
-    at ApiController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api/videos.js:11:46)
-    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
-    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+2019-03-24 16:22:28,402 WARN 8828 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:22:28,409 WARN 8828 [-/127.0.0.1/-/6ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 8828
+hostname: DESKTOP-AF11GFI
 
-pid: 70750
-hostname: localhost
+2019-03-24 16:28:54,003 WARN 22348 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:28:54,006 WARN 22348 [-/127.0.0.1/-/4ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 22348
+hostname: DESKTOP-AF11GFI
 
-2019-03-21 18:55:18,874 ERROR 70756 [-/127.0.0.1/-/2ms GET /api/v1/videos] nodejs.ReferenceError: list is not defined
-    at VideoService.getData (/Users/lixiao/Desktop/egg-pwa-new/app/service/video.js:25:9)
-    at ApiController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api/videos.js:11:46)
-    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
-    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+2019-03-24 16:28:57,701 WARN 22348 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:28:57,702 WARN 22348 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 22348
+hostname: DESKTOP-AF11GFI
 
-pid: 70756
-hostname: localhost
+2019-03-24 16:28:58,676 WARN 22348 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:28:58,677 WARN 22348 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 22348
+hostname: DESKTOP-AF11GFI
 
-2019-03-21 18:55:32,722 ERROR 70756 [-/127.0.0.1/-/1ms GET /api/v1/videos] nodejs.ReferenceError: list is not defined
-    at VideoService.getData (/Users/lixiao/Desktop/egg-pwa-new/app/service/video.js:25:9)
-    at ApiController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api/videos.js:11:46)
-    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
-    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+2019-03-24 16:28:59,573 WARN 22348 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:28:59,573 WARN 22348 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 22348
+hostname: DESKTOP-AF11GFI
 
-pid: 70756
-hostname: localhost
+2019-03-24 16:29:00,005 WARN 22348 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:29:00,006 WARN 22348 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 22348
+hostname: DESKTOP-AF11GFI
 
-2019-03-21 18:56:32,093 ERROR 70761 [-/127.0.0.1/-/3ms GET /api/v1/videos] nodejs.ReferenceError: list is not defined
-    at VideoService.getData (/Users/lixiao/Desktop/egg-pwa-new/app/service/video.js:25:9)
-    at ApiController.index (/Users/lixiao/Desktop/egg-pwa-new/app/controller/api/videos.js:11:46)
-    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/lixiao/Desktop/egg-pwa-new/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:45:18)
-    at /Users/lixiao/Desktop/egg-pwa-new/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/lixiao/Desktop/egg-pwa-new/node_modules/koa-compose/index.js:44:32)
+2019-03-24 16:29:00,359 WARN 22348 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:29:00,360 WARN 22348 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 22348
+hostname: DESKTOP-AF11GFI
 
-pid: 70761
-hostname: localhost
+2019-03-24 16:30:49,799 WARN 8724 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:30:49,801 WARN 8724 [-/127.0.0.1/-/5ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 8724
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:36:11,688 WARN 14748 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:36:11,691 WARN 14748 [-/127.0.0.1/-/5ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:36:13,452 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:36:13,452 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:36:15,005 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:36:15,005 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:36:17,936 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:36:17,936 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:45:07,234 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:45:07,234 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:45:10,274 WARN 14748 [-/127.0.0.1/-/24ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:45:10,275 WARN 14748 [-/127.0.0.1/-/25ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:49:12,042 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:49:12,043 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:49:23,689 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:49:23,689 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:51:19,184 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:51:19,185 WARN 14748 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:51:29,752 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:51:29,752 WARN 14748 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:53:11,291 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:53:11,292 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:54:16,149 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:54:16,150 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:54:34,663 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:54:34,664 WARN 14748 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:54:35,242 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:54:35,244 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:54:55,685 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:54:55,686 WARN 14748 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:55:17,340 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:55:17,341 WARN 14748 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:55:24,660 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:55:24,660 WARN 14748 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:55:37,124 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:55:37,125 WARN 14748 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14748
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 16:56:27,604 WARN 16788 [-/127.0.0.1/-/26ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 16:56:27,605 WARN 16788 [-/127.0.0.1/-/27ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 16788
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:15:26,874 WARN 24528 [-/127.0.0.1/-/29ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 17:15:26,876 WARN 24528 [-/127.0.0.1/-/32ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 24528
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:15:35,807 WARN 24528 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 17:15:35,808 WARN 24528 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 24528
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:15:51,543 WARN 24528 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 17:15:51,544 WARN 24528 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 24528
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:16:01,062 WARN 24528 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 17:16:01,063 WARN 24528 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 24528
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:16:36,088 WARN 24528 [-/127.0.0.1/-/0ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 17:16:36,089 WARN 24528 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 24528
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:16:49,204 WARN 24528 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 17:16:49,204 WARN 24528 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 24528
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:19:09,001 WARN 24528 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-24 17:19:09,001 WARN 24528 [-/127.0.0.1/-/2ms POST /api/v1/pwapush] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lixiao\Desktop\pwademo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lixiao\Desktop\pwademo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lixiao\Desktop\pwademo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 24528
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:45:34,999 WARN 24812 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\lixiao\Desktop\pwademo\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (C:\Users\lixiao\Desktop\pwademo\node_modules\co-body\lib\json.js:41:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+status: 400
+body: "[object Object]"
+pid: 24812
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:46:35,645 WARN 9924 [-/127.0.0.1/-/19ms POST /api/v1/pwapush] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\lixiao\Desktop\pwademo\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (C:\Users\lixiao\Desktop\pwademo\node_modules\co-body\lib\json.js:41:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+status: 400
+body: "[object Object]"
+pid: 9924
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:47:17,815 WARN 9924 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\lixiao\Desktop\pwademo\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (C:\Users\lixiao\Desktop\pwademo\node_modules\co-body\lib\json.js:41:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+status: 400
+body: "[object Object]"
+pid: 9924
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 17:47:48,603 WARN 9924 [-/127.0.0.1/-/1ms POST /api/v1/pwapush] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\lixiao\Desktop\pwademo\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (C:\Users\lixiao\Desktop\pwademo\node_modules\co-body\lib\json.js:41:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+status: 400
+body: "[object Object]"
+pid: 9924
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 21:42:42,013 ERROR 2972 [-/127.0.0.1/-/21103ms POST /pwapush/save] nodejs.ETIMEDOUTError: connect ETIMEDOUT 172.217.161.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1191:14)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "172.217.161.138"
+port: 443
+name: "ETIMEDOUTError"
+pid: 2972
+hostname: DESKTOP-AF11GFI
+
+2019-03-24 21:46:39,870 ERROR 5352 [-/127.0.0.1/-/22032ms POST /pwapush/save] nodejs.ETIMEDOUTError: connect ETIMEDOUT 172.217.27.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1191:14)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "172.217.27.138"
+port: 443
+name: "ETIMEDOUTError"
+pid: 5352
+hostname: DESKTOP-AF11GFI
 
