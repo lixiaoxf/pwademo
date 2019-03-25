@@ -8,6 +8,10 @@ this.addEventListener('install', function (event
       // 安装成功后操作 CacheStorage 缓存，使用之前需要先通过 caches.open() 打开对应缓存空间。
       caches.open(cacheName).then(function (cache) {
           // 通过 cache 缓存对象的 addAll 方法添加 precache 缓存
+          cache.addAll([
+            '/api/v1/videos',
+            '/api/v1/news'
+          ]);
           return cache.addAll([
              '/spa',
              '/spa/index.css',

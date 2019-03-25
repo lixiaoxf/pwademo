@@ -63,23 +63,12 @@ function pushRegister(registration){
       }
     return ;  
 }
-function sync(swRegistration){
-    swRegistration.sync.register('qieSync');
-}
 export default function(sw,scope){
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register(sw, {scope})
         navigator.serviceWorker.ready.then(function(registration) {
-            console.log('1111111')
             pushRegister(registration)
         })
-        
         notifiRegister()
-        // var a = new Notification('企鹅体育想要显示通知',{
-        //     body:'企鹅体育有你想要',
-        //     tag:'div',
-        //     icon:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553071853147&di=87f94a5dc1f20b22eb7ded1e7f795b6e&imgtype=0&src=http%3A%2F%2Ff2.dn.anqu.com%2Fdown%2FZjNlYQ%3D%3D%2Fallimg%2F120728%2F1-120HP03412.jpg',
-        //     image:'http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png'
-        // })
     }
 }

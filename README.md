@@ -4,30 +4,30 @@
 
 ## QuickStart
 
-<!-- add docs here for user -->
 
-see [egg docs][egg] for more detail.
 
-### Development
+pwademo 快速开始
 
 ```bash
 $ npm i
-$ npm run dev
-$ open http://localhost:7001/
+$ npm run start
+$ open http://127.0.0.1:7001/ssr
 ```
 
-### Deploy
+停止 
+npm run stop 
 
-```bash
-$ npm start
-$ npm stop
-```
+开发
+npm run dev 开服务 并监听
+npm run watch 开启静态资源 监听
 
-### npm scripts
+push 控制输出台 用于测试 push 推送 推送之前请先访问 http://127.0.0.1:7001/ssr 获取通知权限
+http://127.0.0.1:7001/pwapush/view
 
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+SSR demo
+http://127.0.0.1:7001/ssr
+使用的缓存策略：发送请求 如果缓存中有资源 那就是使用缓存资源 然后发送请求更新缓存资源
 
-
-[egg]: https://eggjs.org
+SPA demo
+http://127.0.0.1:7001/spa
+使用的缓存策略：发送请求 如果缓存中有资源 那就是使用缓存资源 然后发送请求更新缓存资源 等新资源返回就直接刷新数据

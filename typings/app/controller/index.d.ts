@@ -9,7 +9,6 @@ import ExportSpa = require('../../../app/controller/spa');
 import ExportSsr = require('../../../app/controller/ssr');
 import ExportApiDetail = require('../../../app/controller/api/detail');
 import ExportApiNews = require('../../../app/controller/api/news');
-import ExportApiPwapush = require('../../../app/controller/api/pwapush');
 import ExportApiVideos = require('../../../app/controller/api/videos');
 
 declare module 'egg' {
@@ -22,7 +21,6 @@ declare module 'egg' {
     api: {
       detail: ExportApiDetail;
       news: ExportApiNews;
-      pwapush: ExportApiPwapush;
       videos: ExportApiVideos;
     }
   }

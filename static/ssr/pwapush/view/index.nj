@@ -1,0 +1,23 @@
+{% extends "../../component/layout/noBottom.nj" %}
+
+{% block head %}
+    {{style([
+        'ssr/pwapush/index.css'
+    ])}}
+{% endblock %}
+
+{% block content %}
+    
+   <div class='pwapush-form'>
+        <input type='text' placeholder='请输入推送信息' >
+        <p>发送</p>
+        <span></span>
+   </div>
+    
+{% endblock %}
+
+{% block javascript %}
+    {{script([
+        'ssr/pwapush/index.js'
+    ])}}
+{% endblock %}

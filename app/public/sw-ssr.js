@@ -35,13 +35,6 @@ this.addEventListener('push', function(res) {
     })
 }) 
 
-this.addEventListener('sync', function(res) {
-    const resData = res.tag;
-    this.registration.showNotification('同步事件',{
-        body:resData,
-        icon:'http://static.qiecdn.com/static-mobile/03081859/common/res/index/logo-new.png'
-    })
-}) 
 function _fetch(event){
     var request = event.request.clone(); // 把原始请求拷过来
     return fetch(request).then(function (httpRes) {

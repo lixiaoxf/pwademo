@@ -10,5 +10,7 @@
   "ssr/index/index.css": "ssr/index/index.css",
   "ssr/news/index.js": "ssr/news/index.js",
   "ssr/news/index.css": "ssr/news/index.css",
+  "ssr/pwapush/index.js": "ssr/pwapush/index.js",
+  "ssr/pwapush/index.css": "ssr/pwapush/index.css",
   "home/res/index/rm.png": "home/res/index/rm1f99c.min.png"
 }

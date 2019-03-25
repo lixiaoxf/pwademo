@@ -9,4 +9,19 @@
         height: rem(62);
         width: rem(180);
     }
+    .refre{
+        position: absolute;
+        right:rem(20);
+        top:rem(20);
+        height: rem(60);
+        align-items: center;
+        justify-content: center;
+        font-size: rem(20);
+        color: #fff;
+        background: #000;
+        border-radius: 50%;
+        display: flex;
+        width: rem(60);
+        text-decoration:none;
+    }
 }

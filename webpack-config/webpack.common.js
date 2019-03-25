@@ -16,7 +16,7 @@ module.exports = {
     entry: {
         'home/index': './home/index.js',
         'spa/index': './spa/index.js',
-        
+        'ssr/pwapush/index': './ssr/pwapush/index.js',
         'ssr/index/index'  : './ssr/index/index.js',
         'ssr/detail/index'  : './ssr/detail/index.js',
         'ssr/news/index'  : './ssr/news/index.js'

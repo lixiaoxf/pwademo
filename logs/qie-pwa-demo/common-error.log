@@ -20,3 +20,108 @@ name: "ETIMEDOUTError"
 pid: 5352
 hostname: DESKTOP-AF11GFI
 
+2019-03-25 13:40:10,228 ERROR 80180 [-/127.0.0.1/-/16ms GET /pwapush/view] nodejs.ReferenceError: list is not defined
+    at pwaPushController.view (/Users/lixiao/Desktop/pwademo/app/controller/pwapush.js:35:51)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:36:12
+
+pid: 80180
+hostname: localhost
+
+2019-03-25 14:11:13,277 ERROR 80341 [-/127.0.0.1/-/3ms POST /pwapush/push] nodejs.Error: You must pass in a subscription with at least an endpoint.
+    at Object.WebPushLib.generateRequestDetails (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:89:13)
+    at Object.WebPushLib.sendNotification (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:289:29)
+    at pwaPushController.push (/Users/lixiao/Desktop/pwademo/app/controller/pwapush.js:42:33)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 80341
+hostname: localhost
+
+2019-03-25 14:13:26,182 ERROR 80375 [-/127.0.0.1/-/18ms POST /pwapush/push] nodejs.Error: You must pass in a subscription with at least an endpoint.
+    at Object.WebPushLib.generateRequestDetails (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:89:13)
+    at Object.WebPushLib.sendNotification (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:289:29)
+    at pwaPushController.push (/Users/lixiao/Desktop/pwademo/app/controller/pwapush.js:42:33)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 80375
+hostname: localhost
+
+2019-03-25 14:13:47,493 ERROR 80375 [-/127.0.0.1/-/1ms POST /pwapush/push] nodejs.Error: You must pass in a subscription with at least an endpoint.
+    at Object.WebPushLib.generateRequestDetails (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:89:13)
+    at Object.WebPushLib.sendNotification (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:289:29)
+    at pwaPushController.push (/Users/lixiao/Desktop/pwademo/app/controller/pwapush.js:42:33)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 80375
+hostname: localhost
+
+2019-03-25 14:14:09,258 ERROR 80375 [-/127.0.0.1/-/1ms POST /pwapush/push] nodejs.Error: You must pass in a subscription with at least an endpoint.
+    at Object.WebPushLib.generateRequestDetails (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:89:13)
+    at Object.WebPushLib.sendNotification (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:289:29)
+    at pwaPushController.push (/Users/lixiao/Desktop/pwademo/app/controller/pwapush.js:42:33)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 80375
+hostname: localhost
+
+2019-03-25 14:15:20,175 ERROR 80379 [-/127.0.0.1/-/24ms POST /pwapush/push] nodejs.Error: You must pass in a subscription with at least an endpoint.
+    at Object.WebPushLib.generateRequestDetails (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:89:13)
+    at Object.WebPushLib.sendNotification (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:289:29)
+    at pwaPushController.push (/Users/lixiao/Desktop/pwademo/app/controller/pwapush.js:43:33)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 80379
+hostname: localhost
+
+2019-03-25 14:17:06,794 ERROR 80393 [-/127.0.0.1/-/22ms POST /pwapush/push] nodejs.Error: You must pass in a subscription with at least an endpoint.
+    at Object.WebPushLib.generateRequestDetails (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:89:13)
+    at Object.WebPushLib.sendNotification (/Users/lixiao/Desktop/pwademo/node_modules/web-push/src/web-push-lib.js:289:29)
+    at pwaPushController.push (/Users/lixiao/Desktop/pwademo/app/controller/pwapush.js:43:33)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixiao/Desktop/pwademo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixiao/Desktop/pwademo/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixiao/Desktop/pwademo/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 80393
+hostname: localhost
+

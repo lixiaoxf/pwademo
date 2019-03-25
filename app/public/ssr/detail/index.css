@@ -12,43 +12,26 @@
     background-size: rem(180) rem(62);
     height: rem(62);
     width: rem(180); }
-@charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0; }
-
-html, html body {
-  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
-
-.site-bottom {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .site-bottom a {
-    display: block;
-    height: 100%;
-    font-size: 0.29333rem;
-    letter-spacing: 0.02667rem;
-    font-weight: bold;
-    color: #000;
-    background: #fff;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .site-top .refre {
+    position: absolute;
+    right: rem(20);
+    top: rem(20);
+    height: rem(60);
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    font-size: rem(20);
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: rem(60);
     text-decoration: none; }
-    .site-bottom a.cur {
-      background: #ff5655;
-      color: #fff; }
 @charset "UTF-8";
 * {
   margin: 0;
@@ -67,6 +50,20 @@ html, html body {
     background-size: 2.4rem 0.82667rem;
     height: 0.82667rem;
     width: 2.4rem; }
+  .site-top .refre {
+    position: absolute;
+    right: 0.26667rem;
+    top: 0.26667rem;
+    height: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.26667rem;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    width: 0.8rem;
+    text-decoration: none; }
 
 * {
   margin: 0;
@@ -132,6 +129,43 @@ html, html body {
 html, html body {
   font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
 
+.site-bottom {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .site-bottom a {
+    display: block;
+    height: 100%;
+    font-size: 0.29333rem;
+    letter-spacing: 0.02667rem;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none; }
+    .site-bottom a.cur {
+      background: #ff5655;
+      color: #fff; }
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  font-family: 'PingFangSC-Regular', 'Verdana', 'Arial', '微软雅黑', '宋体'; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -149,6 +183,20 @@ html, html body {
     background-size: 2.4rem 0.82667rem;
     height: 0.82667rem;
     width: 2.4rem; }
+  .site-top .refre {
+    position: absolute;
+    right: 0.26667rem;
+    top: 0.26667rem;
+    height: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.26667rem;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    width: 0.8rem;
+    text-decoration: none; }
 
 * {
   margin: 0;

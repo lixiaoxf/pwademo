@@ -1,339 +1,339 @@
 {
   "view": {
-    "defaultViewEngine": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js",
+    "defaultViewEngine": "/Users/lixiao/Desktop/pwademo/config/config.default.js",
     "mapping": {
-      ".nj": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js"
+      ".nj": "/Users/lixiao/Desktop/pwademo/config/config.default.js"
     },
-    "root": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "/Users/lixiao/Desktop/pwademo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lixiao/Desktop/pwademo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lixiao/Desktop/pwademo/node_modules/egg-view/config/config.default.js"
   },
-  "keys": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js",
-  "middleware": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js",
+  "keys": "/Users/lixiao/Desktop/pwademo/config/config.default.js",
+  "middleware": "/Users/lixiao/Desktop/pwademo/config/config.default.js",
   "cluster": {
     "listen": {
-      "port": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js",
-      "hostname": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js",
-      "path": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "port": "/Users/lixiao/Desktop/pwademo/config/config.default.js",
+      "hostname": "/Users/lixiao/Desktop/pwademo/config/config.default.js",
+      "path": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     }
   },
   "siteconfig": {
-    "cdn": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.local.js"
+    "cdn": "/Users/lixiao/Desktop/pwademo/config/config.local.js"
   },
   "static": {
-    "prefix": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js",
-    "dir": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js",
-    "dynamic": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "/Users/lixiao/Desktop/pwademo/config/config.default.js",
+    "dir": "/Users/lixiao/Desktop/pwademo/config/config.default.js",
+    "dynamic": "/Users/lixiao/Desktop/pwademo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lixiao/Desktop/pwademo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lixiao/Desktop/pwademo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lixiao/Desktop/pwademo/node_modules/egg-static/config/config.default.js"
   },
   "security": {
     "csrf": {
-      "headerName": "C:\\Users\\lixiao\\Desktop\\pwademo\\config\\config.default.js",
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "headerName": "/Users/lixiao/Desktop/pwademo/config/config.default.js",
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
-    "domainWhiteList": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
     "xframe": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
     }
   },
   "session": {
-    "maxAge": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "/Users/lixiao/Desktop/pwademo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lixiao/Desktop/pwademo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lixiao/Desktop/pwademo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lixiao/Desktop/pwademo/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "/Users/lixiao/Desktop/pwademo/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "/Users/lixiao/Desktop/pwademo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lixiao/Desktop/pwademo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lixiao/Desktop/pwademo/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "/Users/lixiao/Desktop/pwademo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lixiao/Desktop/pwademo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lixiao/Desktop/pwademo/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "/Users/lixiao/Desktop/pwademo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lixiao/Desktop/pwademo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lixiao/Desktop/pwademo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lixiao/Desktop/pwademo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lixiao/Desktop/pwademo/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "/Users/lixiao/Desktop/pwademo/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "/Users/lixiao/Desktop/pwademo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lixiao/Desktop/pwademo/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "/Users/lixiao/Desktop/pwademo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lixiao/Desktop/pwademo/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "/Users/lixiao/Desktop/pwademo/node_modules/egg-schedule/config/config.default.js"
   },
   "multipart": {
-    "mode": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "/Users/lixiao/Desktop/pwademo/node_modules/egg-multipart/config/config.default.js"
     }
   },
   "development": {
-    "watchDirs": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "/Users/lixiao/Desktop/pwademo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lixiao/Desktop/pwademo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lixiao/Desktop/pwademo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lixiao/Desktop/pwademo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lixiao/Desktop/pwademo/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "/Users/lixiao/Desktop/pwademo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lixiao/Desktop/pwademo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lixiao/Desktop/pwademo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lixiao/Desktop/pwademo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lixiao/Desktop/pwademo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lixiao/Desktop/pwademo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lixiao/Desktop/pwademo/node_modules/egg-logrotator/config/config.default.js"
   },
   "nunjucks": {
-    "autoescape": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "/Users/lixiao/Desktop/pwademo/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/lixiao/Desktop/pwademo/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/lixiao/Desktop/pwademo/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/lixiao/Desktop/pwademo/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/lixiao/Desktop/pwademo/node_modules/egg-view-nunjucks/config/config.local.js"
   },
-  "env": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "name": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
+  "env": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "name": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "version": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "description": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "private": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
+    "name": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "version": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "description": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "private": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
     "egg": {
-      "declarations": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "declarations": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
-      "axios": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "egg": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-ejs": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "jquery": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "lodash": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "vue": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "vue-router": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "web-push": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "workbox-webpack-plugin": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "axios": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "egg": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "jquery": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "vue": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "web-push": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "workbox-webpack-plugin": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "autoprefixer": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "babel-core": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "babel-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "babel-preset-env": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "clean-webpack-plugin": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "copy-webpack-plugin": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "cross-env": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "css-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "exports-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "extract-text-webpack-plugin": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "file-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "html-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "html-webpack-plugin": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "img-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "imports-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "node-sass": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "postcss-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "sass": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "sass-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "script-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "style-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "uglifyjs-webpack-plugin": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "url-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "vue-loader": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "vue-template-compiler": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "webpack": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "webpack-cli": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "webpack-manifest-plugin": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "webpack-merge": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "webstorm-disable-index": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "autod": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "clean-webpack-plugin": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "copy-webpack-plugin": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "exports-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "extract-text-webpack-plugin": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "html-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "img-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "imports-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "sass": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "script-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "vue-loader": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "vue-template-compiler": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "webpack-manifest-plugin": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "node": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "stop": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "dev": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "watch": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "debug": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "test": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "cov": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "lint": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "ci": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "autod": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "build": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "start": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "stop": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "dev": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "watch": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "debug": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "test": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "cov": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "lint": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "ci": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "autod": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "build": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
     "ci": {
-      "version": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "version": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
-    "browserslist": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
+    "browserslist": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
     "repository": {
-      "type": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "url": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "type": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "url": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
-    "author": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "license": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+    "author": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "license": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "strict": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
+    "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "depth": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "env": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "level": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
+    "dir": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "env": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "level": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.local.js"
     },
-    "allowDebugAtProd": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "logging": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+    "enable": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
   "clusterClient": {
-    "maxWaitTime": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "C:\\Users\\lixiao\\Desktop\\pwademo\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "/Users/lixiao/Desktop/pwademo/node_modules/egg/config/config.default.js"
 }
